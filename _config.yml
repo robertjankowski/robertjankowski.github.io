@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Robert Jankowski"
   avatar           : "RobertJankowski_circle.png"
-  bio              : "Data Science Master student at Warsaw University of Technology & NLP Intern at Samsung"
+  bio              : "I'm a Data Science student at Warsaw University of Technology & NLP Intern at Samsung"
   location         : "Warsaw"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,11 +102,11 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/robert--jankowski/"
+  linkedin         : "robert--jankowski"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : https://stackoverflow.com/users/9511702/robjan?tab=profile
+  stackoverflow    : "9511702/robjan?tab=profile"
   steam            :
   tumblr           :
   twitter          : #"replacethistwitterhandle"
