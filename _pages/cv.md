@@ -11,30 +11,40 @@ redirect_from:
 
 Education
 ======
+
 * B.S. in Applied Physics, Warsaw University Of Technology, 2019
 * M.S. in Data Exploration and Interdisciplinary Modeling, Warsaw University Of Technology, 2021 (expected)
-<!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* July 2020 - (currently): NLP Research Intern
+  * Samsung R&D Institute Poland
+  * Preparing and testing deep learning models for natural language processing tasks
+
+* September 2019 -- November 2019: Junior Scala Developer
+  * TouK sp. z o.o. s.k.a.
+  * Backend development: Scala, Akka, Cats, Docker, Python
+  
+* July 2019 -- August 2019: Scala Intern
+  * TouK sp. z o.o. s.k.a.
+  * Backend development: Scala, Akka, Cats
+
+* July 2018 - August 2018: Software Engineering Intern
+  * Ilabo Sp. z o.o., Warsaw
+  * Duties included: software development in web technologies - C\#, .NET Core, LINQ, xUnit.net
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* Good programming skills
+  * Python
+  * R
+  * Scala
+* Knowledge in
+  * machine learning and deep learning algorithms
+  * natural language processing
+  * git and more...
 
 Publications
 ======

@@ -1,15 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "Determining crucial factors for the popularity of scientific articles"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2020-01-17
+excerpt: 'In this paper we discuss the application of machine learning algorithms in bibliometrics...'
+date: 2020-01-17
+venue: 'Preprint available'
+paperurl: 'https://arxiv.org/pdf/2001.09914.pdf'
+citation: 'Jankowski, R., & Sienkiewicz, J. (2020). Determining crucial factors for the popularity of scientific articles. arXiv preprint arXiv:2001.09914.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+In this paper we discuss the application of machine learning algorithms in bibliometrics. We explore multiple features from over 70 000 publications and find the concrete popularity threshold which results in the best ML prediction (in terms of MCC metric). Also using variable importance plot, we reduced significantly the number of input features for ML models sustaining the predictions at the same level.
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Download paper [here](http://academicpages.github.io/files/paper2.pdf)
