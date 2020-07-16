@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "pl-PL"
-title                    : "Robert Jankowski"
+title                    : "Robert Jankowski Homepage"
 title_separator          : "-"
 name                     : &name "Robert Jankowski"
 description              : &description "NLP Research Intern @ Samsung R&D Poland"
@@ -88,7 +88,7 @@ author:
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "robertjankowski@tuta.io"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Robert_Jankowski6"
   uri              :
   bitbucket        :
   codepen          :
