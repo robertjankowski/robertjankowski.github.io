@@ -8,7 +8,9 @@
 
 $doc-font-size              : 16;
 
-$my-font                    : et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+// $my-font                    : et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+$my-font                    : et-book, "Roboto Slab";
+
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
