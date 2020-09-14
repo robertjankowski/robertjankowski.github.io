@@ -14,11 +14,11 @@ redirect_from:
 Education
 ======
 
+* M.S. in Data Exploration and Interdisciplinary Modeling
+  * Faculty of Physics, Warsaw University Of Technology, 2020-2021 (expected)
 * B.S. in Applied Physics (Computational Physics)
   * Thesis title: _Predicting election polls results using machine learning tools_
   * Faculty of Physics, Warsaw University Of Technology, 2016-2020
-* M.S. in Data Exploration and Interdisciplinary Modeling
-  * Faculty of Physics, Warsaw University Of Technology, 2020-2021 (expected)
 
 Work experience
 ======

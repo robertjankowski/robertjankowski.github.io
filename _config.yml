@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "pl-PL"
-title                    : "Robert Jankowski Homepage"
+title                    : "Robert Jankowski's Homepage"
 title_separator          : "-"
 name                     : &name "Robert Jankowski"
 description              : &description "NLP Research Intern @ Samsung R&D Poland"
