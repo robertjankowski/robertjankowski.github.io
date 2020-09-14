@@ -24,19 +24,19 @@ Work experience
 ======
 
 * July 2020 - (currently): **NLP Research Intern**
-  * Samsung R&D Institute Poland
-  * Preparing and testing deep learning models for natural language processing tasks
+  * _Samsung R&D Institute Poland_
+  * Developing and testing deep learning models for named entity recognition task
 
 * September 2019 -- November 2019: **Junior Scala Developer**
-  * TouK sp. z o.o. s.k.a.
+  * _TouK sp. z o.o. s.k.a._
   * Backend development using Scala, Akka, Cats, Docker, Python
   
 * July 2019 -- August 2019: **Scala Intern**
-  * TouK sp. z o.o. s.k.a.
+  * _TouK sp. z o.o. s.k.a._
   * Backend development using Scala, Akka, Cats
 
 * July 2018 - August 2018: **Software Engineering Intern**
-  * Ilabo Sp. z o.o., Warsaw
+  * _Ilabo Sp. z o.o., Warsaw_
   * Software development in web technologies - C#, .NET Core, LINQ, xUnit.net
   
 Skills
