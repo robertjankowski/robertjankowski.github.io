@@ -14,16 +14,21 @@ redirect_from:
 Education
 ======
 
-* M.S. in Data Exploration and Interdisciplinary Modeling
+* **MSc in Data Exploration and Interdisciplinary Modeling**
+  * Thesis: _Interactions in signed complex networks_ 
   * Faculty of Physics, Warsaw University Of Technology, 2020-2021 (expected)
-* B.S. in Applied Physics (Computational Physics)
-  * Thesis title: _Predicting election polls results using machine learning tools_
+* **BSc in Applied Physics (Computational Physics) _Summa Cum Laude_**
+  * Thesis: _Predicting election polls results using machine learning tools_
   * Faculty of Physics, Warsaw University Of Technology, 2016-2020
 
 Work experience
 ======
 
-* July 2020 - (currently): **NLP Research Intern**
+* September 2020 - (currently) **Student researcher**
+  * _Prof. Holyst’s group of Physics in Economy and Social Sciences at Warsaw University of Technology_ 
+  * Design agent-based models on complex networks in project **Signed Relations and Structural Balance in Complex Systems: From Data to Models**
+
+* July 2020 - September 2020: **NLP Research Intern**
   * _Samsung R&D Institute Poland_
   * Developing and testing deep learning models for named entity recognition task
 

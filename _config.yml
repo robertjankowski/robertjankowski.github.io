@@ -10,7 +10,7 @@ locale                   : "pl-PL"
 title                    : "Robert Jankowski's Homepage"
 title_separator          : "-"
 name                     : &name "Robert Jankowski"
-description              : &description "NLP Research Intern @ Samsung R&D Poland"
+description              : &description "Student researcher @ FENS lab"
 url                      : https://robertjankowski.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "robertjankowski/academicpages.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Robert Jankowski"
   avatar           : "RobertJankowski_circle.png"
-  bio              : "I'm a Data Science student at Warsaw University of Technology & NLP Research Intern at Samsung R&D Poland"
+  bio              : "A data science student and student researcher in Physics in Economy and Social Sciences group at Warsaw University of Technology"
   location         : "Warsaw, Poland"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
