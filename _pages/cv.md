@@ -47,9 +47,10 @@ Work experience
 Skills
 ======
 
-* Good programming skills: Python, R
-* Knowledge in machine learning, deep learning algorithms and natural language processing
-* Proficiency in Scala with understanding of object oriented and functional programming
+* Good programming skills: Python, Java
+* Knowledge in network science, agent-based modeling and, simulations on multilayer networks
+* Experience in machine learning, deep learning algorithms and, natural language processing
+
 
 Publications
 ======
@@ -62,13 +63,9 @@ Talks
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-<!-- Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-  
-<!-- Service and leadership
-======
-* Currently signed in to 43 different slack teams -->
+
+Hobbies
+====
+
+* gym, volleyball, sports
+* learning new programming languages (especially functional ones)

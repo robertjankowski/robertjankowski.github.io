@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am pursing MSc degree in Data Science at WUT. My interests are: (1) **complex networks** (especially agent based modeling in sociophysics and locating the source of diffusion in networks), (2) **natural language processing** (e.g. sentiment analysis, named entity recognition) and (3) **graph neural networks** in particular for application in (1) and (2).
+Currently, I am pursing MSc degree in Data Science at WUT. My interests are: (1) **complex networks** (especially agent based modeling in sociophysics and locating the source of diffusion in networks), (2) **natural language processing** (e.g. sentiment analysis, named entity recognition) and (3) **data mining** with strong emphasis on network science.
 
-At the moment I am exploring the use of hyperbolic geometry for social network visualization both in 2D and 3D. I am planning to develop a simple package for exploring very large networks on <a href="https://en.wikipedia.org/wiki/Hyperbolic_tree" target="_blank">Hyperbolic tree</a>.
-
-<!-- At the moment I'm exploring the possibilities of finding the source of information (patient zero in epidemic) in complex networks using GNN. I would like to combine results from the fantastic paper by [R. Paluch _et. al_](https://doi.org/10.1038/s41598-018-20546-3) with deep learning approach. For more see <a href="/projects.html">project page</a>. -->
+At the moment, I am scrutinizing the influence of social media on the global pandemic, COVID-19. The project leverages methods from network science to describe how awareness and the attitudes towards vaccination enlist the total dead and infected ratio. You can find more information here: [social-media-influence-on-covid-pandemic](https://github.com/robertjankowski/social-media-influence-on-covid-pandemic)
 
 <h1><span style="color:red">News</span></h1>
 
