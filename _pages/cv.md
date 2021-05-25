@@ -17,13 +17,18 @@ Education
 * **MSc in Data Exploration and Interdisciplinary Modeling**
   * Thesis: _Interactions in signed complex networks_ 
   * Faculty of Physics, Warsaw University Of Technology, 2020-2021 (expected)
+  * Supervisor: Dr Piotr Górski
 * **BSc in Applied Physics (Computational Physics) _Summa Cum Laude_**
   * Thesis: _Predicting election polls results using machine learning tools_
   * Faculty of Physics, Warsaw University Of Technology, 2016-2020
+  * Supervisor: [Dr Julian Sienkiewicz](http://jsienkiewicz.pl/)
 
 Work experience
 ======
 
+* May 2021 - (currently) **Student researcher**
+  * _Dr Anna Chmiel's group at Warsaw University of Technology_ 
+  * Conducting a series of epidemic simulations (SIRD/SIORD) on multilayer BA networks while considering agents opinions' impact on restrictions.
 * September 2020 - (currently) **Student researcher**
   * _Prof. Holyst’s group of Physics in Economy and Social Sciences at Warsaw University of Technology_ 
   * Design agent-based models on complex networks in project **Signed Relations and Structural Balance in Complex Systems: From Data to Models**
@@ -47,10 +52,9 @@ Work experience
 Skills
 ======
 
-* Good programming skills: Python, Java
+* Good programming skills: Python, Java, Rust
 * Knowledge in network science, agent-based modeling and, simulations on multilayer networks
 * Experience in machine learning, deep learning algorithms and, natural language processing
-
 
 Publications
 ======

@@ -14,5 +14,6 @@ At the moment, I am scrutinizing the influence of social media on the global pan
 
 <h1><span style="color:red">News</span></h1>
 
-- <span style="color:blue">(10.2020)</span> I joined Prof. Holyst's group of Physics in Economy and Social Sciences at Warsaw University of Technology in project _"Signed Relations and Structural Balance in Complex Systems: From Data to Models"_ as a student researcher.
-- <span style="color:blue">(09.2020)</span> New publication in Acta Physica Polonica A. R. Jankowski, J. Sienkiewicz, Acta Phys Pol A 138(1), 41-47 (2020), [doi: 10.12693/APhysPolA.138.41](http://przyrbwn.icm.edu.pl/APP/PDF/138/app138z1p06.pdf)
+- <span style="color:blue">(05.2021)</span> I started working with [Dr Anna Chmiel](http://achmiel.pl/index.php?option=com_content&view=article&id=8&Itemid=109&lang=en) in her research grant _"Modeling epidemic spread using comorbidities and social attitudes"_.
+- <span style="color:blue">(10.2020)</span> I joined [Prof. Holyst's group](http://fens.if.pw.edu.pl/nasz-zespol/) of Physics in Economy and Social Sciences at WUT in project _"Signed Relations and Structural Balance in Complex Systems: From Data to Models"_ as a student researcher.
+- <span style="color:blue">(09.2020)</span> New publication in Acta Physica Polonica A. R. Jankowski, J. Sienkiewicz, Acta Phys Pol A 138(1), 41-47 (2020), [doi: 10.12693/APhysPolA.138.41](http://przyrbwn.icm.edu.pl/APP/PDF/138/app138z1p06.pdf).

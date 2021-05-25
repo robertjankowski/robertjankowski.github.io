@@ -5,7 +5,7 @@ permalink: /publication/2020-01-17
 excerpt: ''
 date: 2020-07-01
 venue: 'ACTA PHYSICA POLONICA A'
-# paperurl: 'http://przyrbwn.icm.edu.pl/APP/PDF/138/app138z1p06.pdf'
+paperurl: 'http://przyrbwn.icm.edu.pl/APP/PDF/138/app138z1p06.pdf'
 citation: 'R. Jankowski, J. Sienkiewicz, Acta Phys Pol A 138(1), 41-47 (2020), doi: 10.12693/APhysPolA.138.41'
 ---
 
