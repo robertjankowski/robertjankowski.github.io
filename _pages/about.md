@@ -8,12 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am pursing MSc degree in Data Science at WUT. My interests are: (1) **complex networks** (especially agent based modeling in sociophysics and locating the source of diffusion in networks), (2) **natural language processing** (e.g. sentiment analysis, named entity recognition) and (3) **data mining** with strong emphasis on network science.
+Currently, I am pursing PhD degree in Network Science at University of Barcelona. My interests are: (1) **complex networks** (especially agent based modeling in sociophysics and locating the source of diffusion in networks), (2) **natural language processing** (e.g. sentiment analysis, named entity recognition) and (3) **data mining** with strong emphasis on network science.
 
 At the moment, I am scrutinizing the influence of social media on the global pandemic, COVID-19. The project leverages methods from network science to describe how awareness and the attitudes towards vaccination enlist the total dead and infected ratio. You can find more information here: [social-media-influence-on-covid-pandemic](https://github.com/robertjankowski/social-media-influence-on-covid-pandemic)
 
 <h1><span style="color:red">News</span></h1>
 
+- <span style="color:blue">(10.2021)</span> I started my PhD degree at University of Barcelona. I will work with Profs. M. Ángeles Serrano and Marián Boguñá on network geometry topics.
 - <span style="color:blue">(07.2021)</span> I was awarded the first prize for my engineering thesis (_Predicting election polls using machine learning tools_) by Section Physics in Economy and Social Sciences of Polish Physical Society.
 - <span style="color:blue">(07.2021)</span> I presented a [poster](https://indico.fis.agh.edu.pl/event/69/contributions/228/attachments/152/226/19_Jankowski.pdf) about my master thesis at 11th Polish Symposium on Physics in Economy and Social Science ([FENS 2021](https://indico.fis.agh.edu.pl/event/69/overview))
 - <span style="color:blue">(06.2021)</span> I won an award for the best student's presentation at the [SFINKS](http://sfinks.fizyka.pw.edu.pl/) conference. I presented an ABM model for generating interaction from agents' preference and their relations.
