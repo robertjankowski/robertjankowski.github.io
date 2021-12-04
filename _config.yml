@@ -86,7 +86,7 @@ author:
   location         : "Barcelona, Spain"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=lmMHrzcAAAAJ&hl=en"
   email            : "robertjankowski@tuta.io"
   researchgate     : "https://www.researchgate.net/profile/Robert_Jankowski6"
   uri              :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : "9511702/robjan?tab=profile"
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : "rjankowskiub"
   vine             :
   weibo            :
   xing             :
