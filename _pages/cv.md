@@ -34,11 +34,11 @@ Work experience
   * _Samsung R&D Institute Poland_
   * Working in Bixby team, focusing on Automatic Speech Recognition
 
-* May 2021 - (now) **Student researcher**
+* May 2021 - Dec 2021 **Student researcher**
   * _Dr Anna Chmiel's group at Warsaw University of Technology_ 
   * Conducting a series of epidemic simulations (SIRD/SIORD) on multilayer BA networks while considering agents opinions' impact on restrictions.
 
-* Sep 2020 - (now) **Student researcher**
+* Sep 2020 - Sep 2021 **Student researcher**
   * _Prof. Holyst’s group of Physics in Economy and Social Sciences at Warsaw University of Technology_ 
   * Design agent-based models on complex networks in project: _Signed Relations and Structural Balance in Complex Systems: From Data to Models_
 
@@ -61,9 +61,9 @@ Work experience
 Skills
 ======
 
-* Good programming skills: Python, Java, Rust
-* Knowledge in network science, agent-based modeling and, simulations on multilayer networks
-* Experience in machine learning, deep learning algorithms and, natural language processing
+* Good programming skills: Python, Java, Rust, C++
+* Knowledge in network science, agent-based modeling and simulations on multilayer networks
+* Experience in machine learning, deep learning algorithms and natural language processing
 
 Publications
 ======
@@ -80,5 +80,5 @@ Talks
 Hobbies
 ====
 
-* gym, volleyball, sports
-* learning new programming languages (especially functional ones)
+* gym, volleyball, hiking
+* learning new programming languages (especially from functional family)
