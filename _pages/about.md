@@ -12,6 +12,7 @@ I am a PhD student in Network Geometry at the University of Barcelona. Currently
 
 <h1><span style="color:red">News</span></h1>
 
+- <span style="color:blue">(10.2022)</span> Very glad to give a talk at [CSS 2022](http://ccs2022.org/) about D-Mercator -- a tool to embed networks into multidimensional hyperbolic spaces.
 - <span style="color:blue">(02.2022)</span> I gave a talk at [NetSciX 2022](https://netscix.dcc.fc.up.pt/) about the role of time scales in coupled  epidemic-opinion dynamics on multiplex networks.
 - <span style="color:blue">(01.2022)</span> New publication in Entropy with Anna Chmiel. The paper discusses the interplay between opinion dynamics and epidemic spreading in multiplex networks ([link](https://www.mdpi.com/1099-4300/24/1/105)).
 - <span style="color:blue">(10.2021)</span> I started my PhD degree at University of Barcelona. I will work with Profs. M. Ángeles Serrano and Marián Boguñá on network geometry topics.
@@ -20,4 +21,4 @@ I am a PhD student in Network Geometry at the University of Barcelona. Currently
 - <span style="color:blue">(06.2021)</span> I won an award for the best student's presentation at the [SFINKS](http://sfinks.fizyka.pw.edu.pl/) conference. I presented an ABM model for generating interaction from agents' preference and their relations.
 - <span style="color:blue">(05.2021)</span> I started working with [Dr Anna Chmiel](http://achmiel.pl/index.php?option=com_content&view=article&id=8&Itemid=109&lang=en) in her research grant _"Modeling epidemic spread using comorbidities and social attitudes"_.
 - <span style="color:blue">(10.2020)</span> I joined [Prof. Holyst's group](http://fens.if.pw.edu.pl/nasz-zespol/) of Physics in Economy and Social Sciences at WUT in project _"Signed Relations and Structural Balance in Complex Systems: From Data to Models"_ as a student researcher.
-- <span style="color:blue">(09.2020)</span> New publication in Acta Physica Polonica A. R. Jankowski, J. Sienkiewicz, Acta Phys Pol A 138(1), 41-47 (2020), [doi: 10.12693/APhysPolA.138.41](http://przyrbwn.icm.edu.pl/APP/PDF/138/app138z1p06.pdf).
+- <span style="color:blue">(09.2020)</span> New publication in Acta Physica Polonica A. with Julian Sienkiewicz. It investigates the important factors of popular scientific articles ([link](http://przyrbwn.icm.edu.pl/APP/PDF/138/app138z1p06.pdf)).
