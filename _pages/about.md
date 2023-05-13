@@ -12,6 +12,8 @@ I am a PhD student in Network Geometry at the University of Barcelona. Currently
 
 <h1><span style="color:red">News</span></h1>
 
+- <span style="color:blue">(05.2023)</span> Our group organized a workshop at [IX Festa de la Ciència](https://www.ub.edu/laubdivulga/festacienciaub/festacienciaIX/xarxescomplexes-familiar.html) (*Science Days*) explaining networks in the city of Barcelona. Take a look at our [video](https://youtu.be/Bj9e8xyzuzM) about the transportation networks in Barcelona.
+- <span style="color:blue">(04.2023)</span> New preprint: $D$-Mercator: multidimensional hyperbolic embedding of real networks ([link](https://arxiv.org/abs/2304.06580))
 - <span style="color:blue">(10.2022)</span> Very glad to give a talk at [CSS 2022](http://ccs2022.org/) about D-Mercator -- a tool to embed networks into multidimensional hyperbolic spaces.
 - <span style="color:blue">(02.2022)</span> I gave a talk at [NetSciX 2022](https://netscix.dcc.fc.up.pt/) about the role of time scales in coupled  epidemic-opinion dynamics on multiplex networks.
 - <span style="color:blue">(01.2022)</span> New publication in Entropy with Anna Chmiel. The paper discusses the interplay between opinion dynamics and epidemic spreading in multiplex networks ([link](https://www.mdpi.com/1099-4300/24/1/105)).
