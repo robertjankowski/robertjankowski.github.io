@@ -65,20 +65,9 @@ Skills
 * Knowledge in network science, agent-based modeling and simulations on multilayer networks
 * Experience in machine learning, deep learning algorithms and natural language processing
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
 Hobbies
 ====
 
-* gym, volleyball, hiking
-* learning new programming languages (especially from functional family)
+* gym, volleyball
+* (film) photography
+* learning new programming languages
