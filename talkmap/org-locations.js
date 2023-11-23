@@ -23,5 +23,15 @@ var addressPoints = [
     "StatPhys28 (Tokyo)",
     35.713430644696366,
     139.76230968544346
+  ],
+  [
+    "Visualizing Complexity Science Workshop (Vienna)",
+    48.2094381187342, 
+    16.348286384748665
+  ]
+  [
+    "FisEs'23 (Pamplona)",
+    42.80209037895628, 
+    -1.657875404051432
   ]
 ];
