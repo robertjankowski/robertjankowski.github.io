@@ -8,10 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Network Geometry at the University of Barcelona. Currently, I work on network embeddings in multidimensional hyperbolic spaces.
+I'm a PhD student in Network Geometry at the University of Barcelona. Currently, I'm working on network embeddings in the multidimensional hyperbolic spaces.
 
 <h1><span style="color:red">News</span></h1>
 
+- <span style="color:blue">(01.2024)</span> New preprint: Feature-aware ultra-low dimensional reduction of real networks is available online ([link](https://arxiv.org/abs/2401.09368)).
 - <span style="color:blue">(11.2023)</span> A first paper from my PhD has been published in Nature Communications! ([link](https://www.nature.com/articles/s41467-023-43337-5))
 - <span style="color:blue">(10.2023)</span> I presented a poster at XXIV Congreso de Física Estadística ([FisEs'23](https://fises23.gefenol.es/)) in Pamplona. My first conference in Spanish!
 - <span style="color:blue">(09.2023)</span> I participated in [Visualizing Complexity Science Workshop](https://vis.csh.ac.at/vis-workshop-2023/) organized by CSH in Vienna.
