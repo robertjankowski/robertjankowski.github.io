@@ -12,6 +12,8 @@ I'm a PhD student in Network Geometry at the University of Barcelona. Currently,
 
 <h1><span style="color:red">News</span></h1>
 
+- <span style="color:blue">(03.2024)</span> I was invited to talk about Network Geometry at Faculty of Physics, Warsaw University of Technology ([link](https://www.fizyka.pw.edu.pl/en/Aktualnosci/Network-geometry-and-multidimensional-hyperbolic-maps-of-real-networks-wyklad-goscinny))
+- <span style="color:blue">(03.2024)</span> I gave a talk at [APS March Meeting](https://march.aps.org/) in Minneapolis about $D$-Mercator.
 - <span style="color:blue">(01.2024)</span> New preprint: Feature-aware ultra-low dimensional reduction of real networks is available online ([link](https://arxiv.org/abs/2401.09368)).
 - <span style="color:blue">(11.2023)</span> A first paper from my PhD has been published in Nature Communications! ([link](https://www.nature.com/articles/s41467-023-43337-5))
 - <span style="color:blue">(10.2023)</span> I presented a poster at XXIV Congreso de Física Estadística ([FisEs'23](https://fises23.gefenol.es/)) in Pamplona. My first conference in Spanish!
