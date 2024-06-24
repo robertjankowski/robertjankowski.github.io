@@ -5,7 +5,7 @@ permalink: /publication/2024-11-17
 excerpt: ''
 date: 2024-01-17
 venue: 'arxiv'
-paperurl: 'https://www.nature.com/articles/s41467-023-43337-5'
+paperurl: 'https://arxiv.org/abs/2401.09368'
 citation: 'Jankowski, R., Hozhabrierdi, P., Boguñá, M., & Serrano, M. Á. (2024). Feature-aware ultra-low dimensional reduction of real networks. arXiv:abs/2401.09368.'
 ---
 
