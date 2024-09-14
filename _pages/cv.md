@@ -11,6 +11,10 @@ redirect_from:
 
 ***
 
+[Download CV (September 2024)](https://robertjankowski.github.io/files/cv_jankowski_sep24.pdf)
+
+---
+
 Education
 ======
 
