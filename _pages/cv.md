@@ -11,7 +11,7 @@ redirect_from:
 
 ***
 
-[Download CV (September 2024)](https://robertjankowski.github.io/files/cv_jankowski_sep24.pdf)
+[Download CV (March 2025)](https://robertjankowski.github.io/files/cv_jankowski_march25.pdf)
 
 ---
 
@@ -44,7 +44,7 @@ Work experience
 
 * Sep 2020 - Sep 2021 **Student researcher**
   * _Prof. Holyst’s group of Physics in Economy and Social Sciences at Warsaw University of Technology_ 
-  * Design agent-based models on complex networks in project: _Signed Relations and Structural Balance in Complex Systems: From Data to Models_
+  * Designing agent-based models on complex networks in project: _Signed Relations and Structural Balance in Complex Systems: From Data to Models_
 
 * Jul 2020 - Sep 2020: **NLP Research Intern**
   * _Samsung R&D Institute Poland_
@@ -65,9 +65,9 @@ Work experience
 Skills
 ======
 
-* Good programming skills: Python, Java, Rust, C++
-* Knowledge in network science, agent-based modeling and simulations on multilayer networks
-* Experience in machine learning, deep learning algorithms and natural language processing
+* Good programming skills: Python, C++, Java
+* Knowledge in network science and network geometry
+* Experience in machine learning and graph neural networks
 
 Hobbies
 ====
