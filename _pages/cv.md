@@ -11,9 +11,9 @@ redirect_from:
 
 ***
 
-[Download CV (March 2025)](https://robertjankowski.github.io/files/cv_jankowski_march25.pdf)
+[Download CV (September 2025)](https://robertjankowski.github.io/files/cv_jankowski_sep2025.pdf)
 
----
+<!-- ---
 
 Education
 ======
@@ -74,4 +74,4 @@ Hobbies
 
 * gym, volleyball
 * (film) photography
-* learning new programming languages
+* learning new programming languages -->

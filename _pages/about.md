@@ -13,6 +13,7 @@ I'm a PhD student in Network Geometry at the University of Barcelona. Currently,
 <h1><span style="color:red">News</span></h1>
 
 <ul>
+  <li><span style="color:blue">(08.2025)</span> New preprint: "Task complexity shapes internal representations and robustness in neural networks" is available online (<a href="https://arxiv.org/abs/2508.05463">link</a>)</li>
   <li><span style="color:blue">(03.2025)</span> New preprint: "Mapping bipartite networks into multidimensional hyperbolic spaces" is available online (<a href="https://arxiv.org/abs/2503.04316">link</a>)</li>
   <li><span style="color:blue">(09.2024)</span> New paper: "Feature-aware ultra-low dimensional reduction of real networks" was published in npj Complexity (<a href="https://www.nature.com/articles/s44260-024-00013-z">link</a>)</li>
   <li><span style="color:blue">(07.2024)</span> I participated in <a href="https://www.logml.ai/">LOGML Summer School 2024</a> at Imperial College London</li>
