@@ -6,9 +6,9 @@ layout: homepage
 
 <h2 style="margin: 80px 0px 10px;"></h2>
 
-I am a PhD student in Network Geometry at the University of Barcelona. Currently, I’m working on network embeddings in the multidimensional hyperbolic spaces.
+I am a Postdoctoral Fellow at TU Delft studying shortest paths in large incomplete networks. I hold a PhD in Network Geometry from the University of Barcelona when I worked on network embeddings in multidimensional hyperbolic spaces. 
 
-[CV (September 2025)](./assets/jankowski_CV.pdf)
+[CV (October 2025)](./assets/jankowski_CV.pdf)
 
 {% include_relative _includes/news.md %}
 

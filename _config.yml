@@ -1,15 +1,15 @@
 # Basic Information 
 title: Robert Jankowski
-position: PhD student
-affiliation: University of Barcelona
-affiliation_link: https://web.ub.edu/en/
-affiliation_logo: ./assets/img/ub.svg
-email: robert.jankowski (at) ub.edu
+position: Postdoctoral Fellow
+affiliation: TU Delft
+affiliation_link: https://www.nas.ewi.tudelft.nl/
+affiliation_logo: ./assets/img/logo_tudelft.svg
+email: research (at) robertjankowski.net
 
 # Search Engine Optimization (SEO)
-keywords: robert jankowski, jankowski, yaoyaoliu, liuyaoyao
+keywords: robert jankowski, jankowski
 canonical: https://robertjankowski.github.io
-description: Robert Jankowski is a PhD student at University of Barcelona. His research lies in network geometry, network embedding and machine learning.
+description: Robert Jankowski is a Postdoctoral Fellow at TU Delft. His research lies in network geometry, network embedding and machine learning.
 
 # The option is used to enable the Illinois template.
 enable_hopkins_logo: true

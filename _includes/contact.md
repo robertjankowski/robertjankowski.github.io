@@ -1,10 +1,8 @@
 <h2 style="margin: 60px 0px 10px;">Contact</h2>
 
 
-Facultat de Física - Universitat de Barcelona
+TU Delft Faculty of Electrical Engineering, Mathematics & Computer Science
 <br />
-Carrer de Martí i Franquès, 1, 11
+Mekelweg 4, 2628 CM Delft, Netherlands
 <br />
-08028 Barcelona
-<br />
-Office: 403
+Office: HB 09.230.

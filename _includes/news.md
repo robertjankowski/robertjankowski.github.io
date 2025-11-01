@@ -1,7 +1,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
-
+<li><strong>[Oct. 2025]</strong> I defended my PhD thesis, titled “Hyperbolic Cartography of Complex Networks.”!</li>
 <li><strong>[Sep. 2025]</strong> New preprint: "Network representations reveal structured uncertainty in music" is available online (<a href="https://arxiv.org/abs/2509.14053">link</a>).</li>
 <li><strong>[Sep. 2025]</strong> New preprint: "Shortest-path percolation on scale-free networks" is available online (<a href="https://arxiv.org/abs/2509.09142">link</a>).</li>
 <li><strong>[Sep. 2025]</strong> New preprint: "Chordless cycle filtrations for dimensionality detection in complex networks via topological data analysis" is available online (<a href="https://arxiv.org/abs/2509.08350">link</a>).</li>
