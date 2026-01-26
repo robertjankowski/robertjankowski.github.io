@@ -8,7 +8,7 @@ layout: homepage
 
 I am a Postdoctoral Fellow at TU Delft studying shortest paths in large incomplete networks. I hold a PhD in Network Geometry from the University of Barcelona, where I worked on network embeddings in multidimensional hyperbolic spaces. 
 
-You can find my full CV here: [CV (October 2025)](./assets/jankowski_CV.pdf)
+You can find my full CV here: [CV (January 2026)](./assets/jankowski_CV.pdf)
 
 {% include_relative _includes/news.md %}
 
