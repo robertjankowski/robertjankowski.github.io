@@ -1,8 +1,8 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[Jan. 2025]</strong> Article "<a href="https://doi.org/10.1103/pk8t-px35">Shortest-path percolation on scale-free networks</a>" published in Physical Review E</li>
-<li><strong>[Jan. 2025]</strong> Article "<a href="https://www.nature.com/articles/s42005-025-02464-9">Mapping bipartite networks into multidimensional hyperbolic spaces</a>" published in Communications Physics</li>
+<li><strong>[Jan. 2026]</strong> Article "<a href="https://doi.org/10.1103/pk8t-px35">Shortest-path percolation on scale-free networks</a>" published in Physical Review E</li>
+<li><strong>[Jan. 2026]</strong> Article "<a href="https://www.nature.com/articles/s42005-025-02464-9">Mapping bipartite networks into multidimensional hyperbolic spaces</a>" published in Communications Physics</li>
 <li><strong>[Oct. 2025]</strong> I defended my PhD thesis, titled “Hyperbolic Cartography of Complex Networks.”!</li>
 <li><strong>[Sep. 2025]</strong> New preprint: "Network representations reveal structured uncertainty in music" is available online (<a href="https://arxiv.org/abs/2509.14053">link</a>).</li>
 <li><strong>[Sep. 2025]</strong> New preprint: "Shortest-path percolation on scale-free networks" is available online (<a href="https://arxiv.org/abs/2509.09142">link</a>).</li>
