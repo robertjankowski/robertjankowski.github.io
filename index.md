@@ -5,6 +5,7 @@ permalink: /
 ---
 
 {% assign email_href = site.email | replace: " (at) ", "@" | replace: " ", "" %}
+{% assign email_text = site.email | replace: " (at) ", "@" %}
 
 <section class="home-hero" aria-labelledby="hero-title">
   <div class="hero-figures" aria-hidden="true">
@@ -18,10 +19,20 @@ permalink: /
   </div>
   <p class="section-label">Hello,</p>
   <h1 class="hero-title" id="hero-title">I am Robert Jankowski, a researcher working on network geometry and machine learning.</h1>
-  <p class="hero-subhead">{{ site.position }} at <a href="{{ site.affiliation_link }}" rel="noopener">{{ site.affiliation }}</a>.</p>
+  <p class="hero-subhead">{{ site.position }} at <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>.</p>
+
+  {% assign home_research_interests = "network geometry|hyperbolic embeddings|machine learning|graph neural networks|TDA" | split: "|" %}
+  <div class="research-interests" aria-label="Research interests">
+    <p class="research-interests-label">Research interests</p>
+    <ul class="research-chip-list">
+      {% for interest in home_research_interests %}
+      <li>{{ interest }}</li>
+      {% endfor %}
+    </ul>
+  </div>
 
   <ul class="quick-links">
-    <li><a class="social-link" href="mailto:{{ email_href }}">{% include social-icon.html name="email" %}email</a></li>
+    <li><a class="social-link" href="mailto:{{ email_href }}" aria-label="Email {{ email_href }}">{% include social-icon.html name="email" %}{{ email_text }}</a></li>
     {% if site.google_scholar %}
     <li><a class="social-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">{% include social-icon.html name="scholar" %}Google Scholar</a></li>
     {% endif %}
@@ -52,7 +63,7 @@ permalink: /
     {% endif %}
     <div class="about-copy">
       <p>I am a Postdoctoral Fellow at TU Delft studying shortest paths in large incomplete networks. I hold a PhD in network geometry from the University of Barcelona, where I worked on network embeddings in multidimensional hyperbolic spaces.</p>
-      <p class="about-affiliation"><strong>{{ site.position }}</strong> · <a href="{{ site.affiliation_link }}" rel="noopener">{{ site.affiliation }}</a></p>
+      <p class="about-affiliation"><strong>{{ site.position }}</strong> · <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a></p>
     </div>
   </div>
 </section>
@@ -99,6 +110,8 @@ permalink: /
     </div>
   </div>
 </section>
+
+{% include projects.html %}
 
 <section class="home-section" id="talks">
   <p class="section-label">Talks</p>

@@ -1,0 +1,74 @@
+{% if site.data.projects.main and site.data.projects.main.size > 0 %}
+<section class="home-section" id="projects">
+  <p class="section-label">Projects</p>
+  <h2>Projects / Software</h2>
+
+  <div class="project-grid">
+    {% for project in site.data.projects.main %}
+    {% assign project_image_href = "" %}
+    {% if project.links and project.links.size > 0 %}
+    {% for link in project.links %}
+    {% assign project_link_label = link.label | downcase %}
+    {% if project_link_label == "code" %}
+    {% assign project_image_href = link.url %}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+    {% if project_image_href == "" %}
+    {% assign project_image_href = project.links[0].url %}
+    {% endif %}
+    {% endif %}
+
+    <article class="project-card">
+      {% if project.image %}
+      {% if project_image_href != "" %}
+      {% if project_image_href contains '://' %}
+      <a class="project-media-link" href="{{ project_image_href }}" target="_blank" rel="noopener" aria-label="Open code for {{ project.title }}">
+      {% else %}
+      <a class="project-media-link" href="{{ project_image_href | relative_url }}" aria-label="Open code for {{ project.title }}">
+      {% endif %}
+      <div class="project-media">
+        <img loading="lazy" src="{{ project.image | relative_url }}" alt="{{ project.title }} preview" />
+      </div>
+      </a>
+      {% else %}
+      <div class="project-media">
+        <img loading="lazy" src="{{ project.image | relative_url }}" alt="{{ project.title }} preview" />
+      </div>
+      {% endif %}
+      {% endif %}
+
+      <div>
+        <h3 class="project-title">{{ project.title }}</h3>
+        {% if project.subtitle %}
+        <p class="project-subtitle">{{ project.subtitle }}</p>
+        {% endif %}
+        {% if project.description %}
+        <p class="project-description">{{ project.description }}</p>
+        {% endif %}
+
+        {% if project.tags and project.tags.size > 0 %}
+        <ul class="project-tags" aria-label="{{ project.title }} tags">
+          {% for tag in project.tags %}
+          <li>{{ tag }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if project.links and project.links.size > 0 %}
+        <p class="project-links">
+          {% for link in project.links %}
+          {% if link.url contains '://' %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+          {% else %}
+          <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+          {% endif %}
+          {% endfor %}
+        </p>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
