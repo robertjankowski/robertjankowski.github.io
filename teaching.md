@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal-portfolio
 title: Teaching
 permalink: /teaching/
 ---

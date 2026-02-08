@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal-portfolio
 title: Services
 permalink: /services/
 ---
