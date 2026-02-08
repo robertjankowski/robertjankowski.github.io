@@ -1,4 +1,5 @@
 {% assign email_href = site.email | replace: " (at) ", "@" | replace: " ", "" %}
+{% assign email_text = site.email | replace: " (at) ", "@" %}
 
 <div class="menu-overlay" id="site-menu" aria-hidden="true">
   <div class="menu-overlay-inner" role="dialog" aria-modal="true" aria-labelledby="menu-title">
@@ -22,7 +23,7 @@
       <div>
         <p class="menu-label">Contact</p>
         <ul class="menu-contact">
-          <li><a class="social-link" href="mailto:{{ email_href }}">{% include social-icon.html name="email" %}email</a></li>
+          <li><a class="social-link" href="mailto:{{ email_href }}" aria-label="Email {{ email_href }}">{% include social-icon.html name="email" %}{{ email_text }}</a></li>
           {% if site.google_scholar %}
           <li><a class="social-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">{% include social-icon.html name="scholar" %}Google Scholar</a></li>
           {% endif %}

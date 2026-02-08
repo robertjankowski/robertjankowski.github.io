@@ -1,0 +1,54 @@
+main:
+  - title: D-Mercator
+    subtitle: Multidimensional hyperbolic embedding
+    description: Method for mapping complex networks into multidimensional hyperbolic spaces.
+    tags:
+      - network geometry
+      - hyperbolic embeddings
+    image: /assets/teaser/jankowski_dmercator.png
+    links:
+      - label: paper
+        url: https://www.nature.com/articles/s41467-023-43337-5
+      - label: code
+        url: https://github.com/networkgeometry/d-mercator
+
+  - title: B-Mercator
+    subtitle: Mapping bipartite networks into the multidimensional hyperbolic spaces.
+    description: Hyperbolic embedding of bipartite networks
+    tags:
+      - network geometry
+      - hyperbolic embeddings
+    image: /assets/teaser/jankowski_bmercator.png
+    links:
+      - label: paper
+        url: https://www.nature.com/articles/s42005-025-02464-9
+      - label: code
+        url: https://github.com/networkgeometry/b-mercator
+
+  - title: FiD-Mercator
+    subtitle: Feature-aware ultra-low dimensional reduction of real networks
+    description: Hyperbolic embedding of complex networks with nodes' features.
+    tags:
+      - network geometry
+      - hyperbolic embeddings
+    image: /assets/teaser/jankowski_fidmercator.png
+    links:
+      - label: paper
+        url: https://www.nature.com/articles/s44260-024-00013-z
+      - label: code
+        url: https://github.com/networkgeometry/FiD-Mercator
+    
+
+  - title: HypBench
+    subtitle: Hyperbolic Benchmark for GNNs
+    description: A comprehensive benchmarking framework for graph machine learning, focusing on the performance of GNNs across varied network structures.
+    tags:
+      - GNNs
+      - benchmarking
+      - machine learning
+    image: /assets/teaser/hypbench.png
+    links:
+      - label: paper
+        url: https://arxiv.org/abs/2406.02772
+      - label: code
+        url: https://github.com/networkgeometry/hyperbolic-benchmark-gnn/
