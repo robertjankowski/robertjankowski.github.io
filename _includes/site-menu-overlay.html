@@ -1,0 +1,45 @@
+{% assign email_href = site.email | replace: " (at) ", "@" | replace: " ", "" %}
+
+<div class="menu-overlay" id="site-menu" aria-hidden="true">
+  <div class="menu-overlay-inner" role="dialog" aria-modal="true" aria-labelledby="menu-title">
+    <div class="menu-overlay-head">
+      <p class="menu-overline" id="menu-title">Menu</p>
+      <button class="menu-close" type="button" data-menu-close aria-label="Close menu">close</button>
+    </div>
+
+    <div class="menu-overlay-grid">
+      <div>
+        <p class="menu-label">Navigate</p>
+        <nav class="menu-links" aria-label="Menu links">
+          <a href="{{ "/#about" | relative_url }}">about</a>
+          <a href="{{ "/#work" | relative_url }}">work</a>
+          <a href="{{ "/#talks" | relative_url }}">talks</a>
+          <a href="{{ "/publications/" | relative_url }}">publications</a>
+          <a href="{{ "/talks/" | relative_url }}">all talks</a>
+        </nav>
+      </div>
+
+      <div>
+        <p class="menu-label">Contact</p>
+        <ul class="menu-contact">
+          <li><a class="social-link" href="mailto:{{ email_href }}">{% include social-icon.html name="email" %}email</a></li>
+          {% if site.google_scholar %}
+          <li><a class="social-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">{% include social-icon.html name="scholar" %}Google Scholar</a></li>
+          {% endif %}
+          {% if site.cv_link %}
+          <li><a class="social-link" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">{% include social-icon.html name="cv" %}CV</a></li>
+          {% endif %}
+          {% if site.github_link %}
+          <li><a class="social-link" href="{{ site.github_link }}" target="_blank" rel="noopener">{% include social-icon.html name="github" %}GitHub</a></li>
+          {% endif %}
+          {% if site.linkedin %}
+          <li><a class="social-link" href="{{ site.linkedin }}" target="_blank" rel="noopener">{% include social-icon.html name="linkedin" %}LinkedIn</a></li>
+          {% endif %}
+          {% if site.twitter %}
+          <li><a class="social-link" href="{{ site.twitter }}" target="_blank" rel="noopener">{% include social-icon.html name="x" %}X</a></li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

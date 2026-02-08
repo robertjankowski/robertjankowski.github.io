@@ -10,16 +10,35 @@ For more details, please refer to this repository: <https://github.com/yaoyao-li
 
 ### Using Locally with Jekyll
 
-You need to install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/) first.
+This repo expects Ruby `3.3.5` (see `.ruby-version`) and Bundler `2.4.8`.
+
+If you use `rbenv`:
+
+```bash
+rbenv install -s 3.3.5
+rbenv local 3.3.5
+eval "$(rbenv init -)"
+gem install bundler:2.4.8
+```
 
 Install and run:
 
 ```bash
 bundle install
+bundle exec jekyll build
 bundle exec jekyll server
 ```
 View the live page using `localhost`:
 <http://localhost:4000>. You can get the html files in the `_site` folder.
+
+If `bundle exec jekyll build` fails with Ruby version or gem resolution errors, check:
+
+```bash
+ruby -v
+bundle -v
+```
+
+You should see Ruby `3.3.5` and Bundler `2.4.8`.
 
 ### Using the HTML version
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal-portfolio
 title: Publications
 permalink: /publications/
 ---

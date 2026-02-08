@@ -1,0 +1,31 @@
+{% assign email_href = site.email | replace: " (at) ", "@" | replace: " ", "" %}
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <p class="footer-note">Thanks for coming by.</p>
+
+    <p class="footer-links">
+      <a class="social-link" href="mailto:{{ email_href }}">{% include social-icon.html name="email" %}email</a>
+      {% if site.google_scholar %}
+      <a class="social-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">{% include social-icon.html name="scholar" %}scholar</a>
+      {% endif %}
+      {% if site.cv_link %}
+      <a class="social-link" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">{% include social-icon.html name="cv" %}cv</a>
+      {% endif %}
+      {% if site.github_link %}
+      <a class="social-link" href="{{ site.github_link }}" target="_blank" rel="noopener">{% include social-icon.html name="github" %}github</a>
+      {% endif %}
+      {% if site.linkedin %}
+      <a class="social-link" href="{{ site.linkedin }}" target="_blank" rel="noopener">{% include social-icon.html name="linkedin" %}linkedin</a>
+      {% endif %}
+      {% if site.twitter %}
+      <a class="social-link" href="{{ site.twitter }}" target="_blank" rel="noopener">{% include social-icon.html name="x" %}x</a>
+      {% endif %}
+    </p>
+
+    <p class="footer-meta">
+      Inspired by
+      <a href="https://www.liesingers.com/" target="_blank" rel="noopener">liesingers.com</a>
+    </p>
+  </div>
+</footer>

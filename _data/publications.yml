@@ -4,73 +4,86 @@ main:
     authors: M. Kim, L. Cirigliano, C. Castellano, H. Sun, <strong>R. Jankowski</strong>, A. Poggialini, F. Radicchi
     conference_short: Physical Review E
     conference: Phys. Rev. E 113, 014314, 2026.
+    type: published
     pdf: https://doi.org/10.1103/pk8t-px35
-    image: ../assets/teaser/spp_scalefree.png
+    image: /assets/teaser/spp_scalefree.png
     code: https://github.com/danielhankim/shortest-path-percolation-on-scale-free-networks
     
   - title: "Mapping bipartite networks into multidimensional hyperbolic spaces"
     authors: <strong>R. Jankowski</strong>, R. Aliakbarisani, M. À. Serrano, M. Boguñá
     conference_short: Communications Physics
     conference: Communications Physics 9(36), 2026.
+    type: published
+    featured: true
     pdf: https://www.nature.com/articles/s42005-025-02464-9
-    image: ../assets/teaser/jankowski_bmercator.png
+    image: /assets/teaser/jankowski_bmercator.png
 
   - title: "Network representations reveal structured uncertainty in music"
     authors: L. B. Rosselló, <strong>R. Jankowski</strong>, H. Bersini, M. Boguñá, M. À. Serrano
     conference_short: arXiv
     conference: arXiv preprint arXiv:2509.14053, 2025.
+    type: preprint
+    featured: true
     pdf: https://arxiv.org/abs/2509.14053
-    image: ../assets/teaser/music_networks.png
+    image: /assets/teaser/music_networks.png
 
   - title: "Chordless cycle filtrations for dimensionality detection in complex networks via topological data analysis"
     authors: A. F. Marcús, <strong>R. Jankowski</strong>, M. V. Miñana, C. Casacuberta, M. À. Serrano
     conference_short: arXiv
     conference: arXiv preprint arXiv:2509.08350, 2025.
+    type: preprint
     pdf: https://arxiv.org/abs/2509.08350
-    image: ../assets/teaser/tda_dimension.png
+    image: /assets/teaser/tda_dimension.png
 
   - title: "Task complexity shapes internal representations and robustness in neural networks"
     authors: <strong>R. Jankowski</strong>, F. Radicchi, M. À. Serrano, M. Boguñá, S. Fortunato
     conference_short: arXiv
     conference: arXiv preprint arXiv:2508.05463, 2025.
+    type: preprint
     pdf: https://arxiv.org/abs/2508.05463
-    image: ../assets/teaser/jankowski_task.png
+    image: /assets/teaser/jankowski_task.png
 
   - title: "Hyperbolic Benchmarking Unveils Network Topology-Feature Relationship in GNN Performance"
     authors: R. Aliakbarisani, <strong>R. Jankowski</strong>, M. À. Serrano, M. Boguñá
     conference_short: arXiv
     conference: arXiv preprint arXiv:2406.02772, 2024.
+    type: preprint
+    featured: true
     pdf: https://arxiv.org/abs/2406.02772
-    image: ../assets/teaser/hypbench.png
+    image: /assets/teaser/hypbench.png
     code: https://github.com/networkgeometry/hyperbolic-benchmark-gnn/
 
   - title: "Feature-aware ultra-low dimensional reduction of real networks"
     authors: <strong>R. Jankowski</strong>, P. Hozhabrierdi, M. Boguñá, M. À. Serrano
     conference_short: npj Complexity
     conference: npj Complexity 1(1):13, 2024.
+    type: published
     pdf: https://www.nature.com/articles/s44260-024-00013-z
-    image: ../assets/teaser/jankowski_fidmercator.png
+    image: /assets/teaser/jankowski_fidmercator.png
     code: https://github.com/networkgeometry/FiD-Mercator
 
   - title: "The D-Mercator method for the multidimensional hyperbolic embedding of real networks"
     authors: <strong>R. Jankowski</strong>, A. Allard, M. Boguñá, M. À. Serrano
     conference_short: Nature Communications
     conference: Nature Communications 14(7585), 2023.
+    type: published
+    featured: true
     pdf: https://www.nature.com/articles/s41467-023-43337-5
-    image: ../assets/teaser/jankowski_dmercator.png
+    image: /assets/teaser/jankowski_dmercator.png
     code: https://github.com/networkgeometry/d-mercator
 
   - title: "Role of Time Scales in the Coupled Epidemic-Opinion Dynamics on Multiplex Networks"
     authors: <strong>R. Jankowski</strong>, A. Chmiel
     conference_short: Entropy
     conference: Entropy 24:105, 2022.
+    type: published
     pdf: https://www.mdpi.com/1099-4300/24/1/105
-    image: ../assets/teaser/jankowski_entropy.png
+    image: /assets/teaser/jankowski_entropy.png
 
   - title: "Determining Crucial Factors for the Popularity of Scientific Articles"
     authors: <strong>R. Jankowski</strong>, J. Sienkiewicz
     conference_short: Acta Phys. Pol. A
     conference: Acta Physica Polonica A 138(1):41–47, 2020.
+    type: published
     pdf: https://arxiv.org/abs/2001.09914
-    image: ../assets/teaser/jankowski_acta.png
-
+    image: /assets/teaser/jankowski_acta.png
