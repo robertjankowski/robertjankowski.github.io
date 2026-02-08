@@ -11,7 +11,7 @@ main:
   - title: "Mapping bipartite networks into multidimensional hyperbolic spaces"
     authors: <strong>R. Jankowski</strong>, R. Aliakbarisani, M. À. Serrano, M. Boguñá
     conference_short: Communications Physics
-    conference: Communications Physics, 2026.
+    conference: Communications Physics 9(36), 2026.
     pdf: https://www.nature.com/articles/s42005-025-02464-9
     image: ../assets/teaser/jankowski_bmercator.png
 
@@ -54,8 +54,8 @@ main:
 
   - title: "The D-Mercator method for the multidimensional hyperbolic embedding of real networks"
     authors: <strong>R. Jankowski</strong>, A. Allard, M. Boguñá, M. À. Serrano
-    conference_short: Nat. Commun.
-    conference: Nature Communications 14:7585, 2023.
+    conference_short: Nature Communications
+    conference: Nature Communications 14(7585), 2023.
     pdf: https://www.nature.com/articles/s41467-023-43337-5
     image: ../assets/teaser/jankowski_dmercator.png
     code: https://github.com/networkgeometry/d-mercator

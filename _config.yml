@@ -20,6 +20,7 @@ enable_last_update: false
 # Links
 link_type: icon #text/icon
 google_scholar: https://scholar.google.com/citations?user=lmMHrzcAAAAJ&hl=en
+cv_link: /assets/jankowski_CV.pdf
 github_link: https://github.com/robertjankowski
 linkedin: https://www.linkedin.com/in/robert--jankowski/
 twitter: https://x.com/rjankowskiub
