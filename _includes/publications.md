@@ -26,6 +26,8 @@
     <button class="publication-filter" type="button" data-filter="published" aria-pressed="false">published</button>
     <button class="publication-filter" type="button" data-filter="preprint" aria-pressed="false">preprint</button>
   </div>
+
+  <button class="publication-reset" type="button" data-publication-reset>clear</button>
 </div>
 
 <p class="filter-empty-message" data-publication-empty hidden>No publications match your current filter.</p>

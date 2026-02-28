@@ -4,6 +4,8 @@
   --muted: #68625b;
   --accent: #17664d;
   --line: #dad4cb;
+  --motion-fast: 0.08s;
+  --hit-target: 2.75rem;
 
   --max-width: 1120px;
   --header-height: 4.25rem;
@@ -36,6 +38,12 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 body {
@@ -47,6 +55,7 @@ body {
   font-weight: 300;
   line-height: 1.65;
   text-rendering: optimizeLegibility;
+  -ms-overflow-style: none;
 }
 
 body.menu-open {
@@ -96,7 +105,7 @@ a {
   text-decoration: underline;
   text-decoration-thickness: 1.25px;
   text-underline-offset: 0.2em;
-  transition: color 0.2s ease;
+  transition: color var(--motion-fast) ease;
 }
 
 a:hover {
@@ -107,6 +116,20 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 0.35em;
+}
+
+.site-nav a,
+.menu-toggle,
+.menu-close,
+.quick-links a,
+.footer-links a,
+.publication-filter,
+.publication-reset,
+.publication-actions a,
+.publication-actions button {
+  min-height: var(--hit-target);
+  display: inline-flex;
+  align-items: center;
 }
 
 .social-icon {
@@ -209,6 +232,7 @@ button:focus-visible {
 .site-nav a {
   color: var(--muted);
   text-decoration: none;
+  padding: 0.2rem 0;
 }
 
 .site-nav a:hover,
@@ -225,8 +249,8 @@ button:focus-visible {
   font: 400 0.74rem/1 var(--font-sans);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding: 0.42rem 0.78rem;
-  transition: border-color 0.2s ease, color 0.2s ease;
+  padding: 0.5rem 0.9rem;
+  transition: border-color var(--motion-fast) ease, color var(--motion-fast) ease;
 }
 
 .menu-toggle:hover {
@@ -243,7 +267,7 @@ button:focus-visible {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 0.28s ease, visibility 0.28s ease;
+  transition: opacity var(--motion-fast) ease, visibility var(--motion-fast) ease;
 }
 
 .menu-overlay.is-open {
@@ -297,7 +321,7 @@ button:focus-visible {
   font: 400 0.72rem/1 var(--font-sans);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding: 0.42rem 0.78rem;
+  padding: 0.5rem 0.9rem;
   cursor: pointer;
 }
 
@@ -394,16 +418,22 @@ button:focus-visible {
 
 .hero-title {
   margin: var(--space-3) 0 var(--space-5);
-  max-width: 14ch;
+  width: fit-content;
+  max-width: 30ch;
   font-family: var(--font-display);
   font-size: var(--hero-size);
   line-height: 0.94;
   letter-spacing: -0.04em;
 }
 
+.hero-title-line {
+  display: block;
+}
+
 .hero-subhead {
   max-width: 56ch;
   color: var(--muted);
+  font-size: clamp(0.98rem, 0.18vw + 0.98rem, 1.06rem);
   font-style: italic;
   margin: 0 0 var(--space-5);
 }
@@ -537,8 +567,8 @@ button:focus-visible {
   grid-template-columns: minmax(110px, 140px) minmax(0, 1fr);
   align-items: start;
   gap: 0.75rem var(--space-4);
-  animation: rise-in 0.55s ease both;
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  animation: rise-in var(--motion-fast) ease both;
+  transition: transform var(--motion-fast) ease, border-color var(--motion-fast) ease;
 }
 
 .feature-card:hover {
@@ -568,15 +598,15 @@ button:focus-visible {
 }
 
 .feature-card:nth-child(2) {
-  animation-delay: 0.06s;
+  animation-delay: 0.02s;
 }
 
 .feature-card:nth-child(3) {
-  animation-delay: 0.12s;
+  animation-delay: 0.04s;
 }
 
 .feature-card:nth-child(4) {
-  animation-delay: 0.18s;
+  animation-delay: 0.06s;
 }
 
 .feature-kicker {
@@ -794,7 +824,8 @@ button:focus-visible {
   background: transparent;
   color: var(--fg);
   font: 300 0.92rem/1.35 var(--font-sans);
-  padding: 0.55rem 0.75rem;
+  min-height: var(--hit-target);
+  padding: 0.75rem 0.85rem;
 }
 
 .publication-search-input::placeholder {
@@ -814,7 +845,8 @@ button:focus-visible {
   gap: var(--space-2);
 }
 
-.publication-filter {
+.publication-filter,
+.publication-reset {
   border: 1px solid var(--line);
   border-radius: 999px;
   background: transparent;
@@ -822,12 +854,13 @@ button:focus-visible {
   font: 400 var(--caption-size) / 1 var(--font-sans);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding: 0.45rem 0.72rem;
+  padding: 0.55rem 0.88rem;
   cursor: pointer;
-  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+  transition: border-color var(--motion-fast) ease, color var(--motion-fast) ease, background-color var(--motion-fast) ease;
 }
 
-.publication-filter:hover {
+.publication-filter:hover,
+.publication-reset:hover:not(:disabled) {
   border-color: rgba(21, 20, 18, 0.45);
   color: var(--fg);
 }
@@ -836,6 +869,15 @@ button:focus-visible {
   border-color: var(--fg);
   background: var(--fg);
   color: var(--bg);
+}
+
+.publication-reset {
+  justify-self: start;
+}
+
+.publication-reset:disabled {
+  opacity: 0.45;
+  cursor: default;
 }
 
 .publication-list {
@@ -927,7 +969,7 @@ button:focus-visible {
   letter-spacing: inherit;
   text-transform: inherit;
   line-height: 1;
-  padding: 0.28rem 0.62rem;
+  padding: 0.45rem 0.78rem;
 }
 
 .publication-actions button:hover {
@@ -949,6 +991,12 @@ button:focus-visible {
   margin: 0 0 var(--space-4);
   color: var(--muted);
   font-size: 0.84rem;
+}
+
+.publication-state-note {
+  margin: -0.35rem 0 var(--space-4);
+  color: var(--muted);
+  font-size: var(--caption-size);
 }
 
 .publication-note {
@@ -1056,27 +1104,27 @@ button:focus-visible {
 .home-hero .quick-links,
 .home-hero .scroll-cue {
   opacity: 0;
-  animation: rise-in 0.55s ease forwards;
+  animation: rise-in var(--motion-fast) ease forwards;
 }
 
 .home-hero .hero-title {
-  animation-delay: 0.1s;
+  animation-delay: 0.02s;
 }
 
 .home-hero .hero-subhead {
-  animation-delay: 0.18s;
+  animation-delay: 0.04s;
 }
 
 .home-hero .research-interests {
-  animation-delay: 0.24s;
+  animation-delay: 0.06s;
 }
 
 .home-hero .quick-links {
-  animation-delay: 0.32s;
+  animation-delay: 0.08s;
 }
 
 .home-hero .scroll-cue {
-  animation-delay: 0.4s;
+  animation-delay: 0.08s;
 }
 
 @keyframes rise-in {

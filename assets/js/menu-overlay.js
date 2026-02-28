@@ -7,12 +7,30 @@
 
   var closeButton = overlay.querySelector("[data-menu-close]");
   var previousFocus = null;
+  var commandTargetSelector = "[data-publication-search]";
   var focusableSelectors = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
   var backgroundRegions = [
     document.querySelector(".site-header"),
     document.getElementById("main-content"),
     document.querySelector(".site-footer"),
   ].filter(Boolean);
+
+  function getCommandTarget() {
+    return document.querySelector(commandTargetSelector);
+  }
+
+  function isEditableElement(element) {
+    if (!element) {
+      return false;
+    }
+
+    if (element.isContentEditable) {
+      return true;
+    }
+
+    var tagName = element.tagName;
+    return tagName === "INPUT" || tagName === "TEXTAREA" || tagName === "SELECT";
+  }
 
   function setBackgroundInert(isInert) {
     backgroundRegions.forEach(function (region) {
@@ -107,6 +125,24 @@
     }
   }
 
+  function focusCommandTarget() {
+    var commandTarget = getCommandTarget();
+    if (!commandTarget) {
+      return false;
+    }
+
+    if (overlay.classList.contains("is-open")) {
+      closeMenu();
+    }
+
+    commandTarget.focus();
+    if (typeof commandTarget.select === "function") {
+      commandTarget.select();
+    }
+
+    return true;
+  }
+
   function toggleMenu() {
     if (overlay.classList.contains("is-open")) {
       closeMenu();
@@ -116,10 +152,45 @@
   }
 
   toggle.addEventListener("click", toggleMenu);
+  toggle.setAttribute("aria-keyshortcuts", "Meta+K Control+K");
 
   if (closeButton) {
     closeButton.addEventListener("click", closeMenu);
   }
+
+  var commandTarget = getCommandTarget();
+  if (commandTarget) {
+    commandTarget.setAttribute("aria-keyshortcuts", "Meta+K Control+K");
+  }
+
+  document.addEventListener("keydown", function (event) {
+    var pressedKey = String(event.key || "").toLowerCase();
+    var isCommandShortcut = (event.metaKey || event.ctrlKey) && !event.altKey && !event.shiftKey && pressedKey === "k";
+
+    if (!isCommandShortcut) {
+      return;
+    }
+
+    if (isEditableElement(document.activeElement) && !getCommandTarget()) {
+      return;
+    }
+
+    event.preventDefault();
+
+    if (focusCommandTarget()) {
+      return;
+    }
+
+    if (!overlay.classList.contains("is-open")) {
+      openMenu();
+      return;
+    }
+
+    var focusable = getFocusable();
+    if (focusable.length) {
+      focusable[0].focus();
+    }
+  });
 
   overlay.addEventListener("click", function (event) {
     if (event.target.closest("[data-menu-close]")) {

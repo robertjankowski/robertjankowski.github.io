@@ -18,7 +18,11 @@ permalink: /
     />
   </div>
   <p class="section-label">Hello,</p>
-  <h1 class="hero-title" id="hero-title">I am Robert Jankowski, a researcher working on network geometry and machine learning.</h1>
+  <h1 class="hero-title" id="hero-title">
+    <span class="hero-title-line">I am Robert Jankowski,</span>
+    <span class="hero-title-line">a researcher working on</span>
+    <span class="hero-title-line">network geometry and machine learning</span>
+  </h1>
   <p class="hero-subhead">{{ site.position }} at <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>.</p>
 
   {% assign home_research_interests = "network geometry|hyperbolic embeddings|machine learning|graph neural networks|TDA" | split: "|" %}
