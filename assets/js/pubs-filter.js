@@ -7,16 +7,110 @@
   var filterRoot = document.querySelector('[data-publication-filters]');
   var filterButtons = filterRoot ? Array.prototype.slice.call(filterRoot.querySelectorAll('[data-filter]')) : [];
   var searchInput = document.querySelector('[data-publication-search]');
+  var resetButton = document.querySelector('[data-publication-reset]');
   var emptyState = document.querySelector('[data-publication-empty]');
+  var storageKey = 'minimal-portfolio:publications';
+  var validTypes = ['all', 'published', 'preprint'];
   var activeType = 'all';
 
   function normalize(value) {
     return (value || '').toLowerCase().trim();
   }
 
-  function applyFilters() {
-    var query = normalize(searchInput ? searchInput.value : '');
+  function isValidType(value) {
+    return validTypes.indexOf(value) !== -1;
+  }
+
+  function updateStoredState(queryValue) {
+    var trimmedQuery = (queryValue || '').trim();
+
+    try {
+      window.localStorage.setItem(
+        storageKey,
+        JSON.stringify({
+          query: trimmedQuery,
+          type: activeType,
+        })
+      );
+    } catch (error) {
+      // Ignore storage failures in restricted browsing modes.
+    }
+
+    if (typeof window.history.replaceState !== 'function' || typeof URL === 'undefined') {
+      return;
+    }
+
+    try {
+      var url = new URL(window.location.href);
+
+      if (trimmedQuery) {
+        url.searchParams.set('q', trimmedQuery);
+      } else {
+        url.searchParams.delete('q');
+      }
+
+      if (activeType !== 'all') {
+        url.searchParams.set('type', activeType);
+      } else {
+        url.searchParams.delete('type');
+      }
+
+      window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+    } catch (error) {
+      // Ignore URL parsing failures.
+    }
+  }
+
+  function restoreStoredState() {
+    var restoredQuery = '';
+    var restoredType = 'all';
+
+    try {
+      var savedState = JSON.parse(window.localStorage.getItem(storageKey) || 'null');
+      if (savedState && typeof savedState === 'object') {
+        if (typeof savedState.query === 'string') {
+          restoredQuery = savedState.query;
+        }
+
+        var savedType = normalize(savedState.type);
+        if (isValidType(savedType)) {
+          restoredType = savedType;
+        }
+      }
+    } catch (error) {
+      // Ignore storage failures in restricted browsing modes.
+    }
+
+    if (typeof URLSearchParams !== 'undefined') {
+      try {
+        var searchParams = new URLSearchParams(window.location.search);
+        var queryParam = searchParams.get('q');
+        var typeParam = normalize(searchParams.get('type'));
+
+        if (typeof queryParam === 'string') {
+          restoredQuery = queryParam;
+        }
+
+        if (isValidType(typeParam)) {
+          restoredType = typeParam;
+        }
+      } catch (error) {
+        // Ignore malformed query strings.
+      }
+    }
+
+    activeType = restoredType;
+
+    if (searchInput) {
+      searchInput.value = restoredQuery;
+    }
+  }
+
+  function applyFilters(options) {
+    var queryValue = searchInput ? searchInput.value : '';
+    var query = normalize(queryValue);
     var visibleCount = 0;
+    var persistState = !options || options.persist !== false;
 
     publicationItems.forEach(function (item) {
       var itemType = item.getAttribute('data-type');
@@ -40,6 +134,16 @@
     if (emptyState) {
       emptyState.hidden = visibleCount !== 0;
     }
+
+    if (resetButton) {
+      var hasActiveState = activeType !== 'all' || query !== '';
+      resetButton.disabled = !hasActiveState;
+      resetButton.setAttribute('aria-disabled', hasActiveState ? 'false' : 'true');
+    }
+
+    if (persistState) {
+      updateStoredState(queryValue);
+    }
   }
 
   filterButtons.forEach(function (button) {
@@ -51,6 +155,35 @@
 
   if (searchInput) {
     searchInput.addEventListener('input', applyFilters);
+    searchInput.addEventListener('keydown', function (event) {
+      if (event.key !== 'Escape') {
+        return;
+      }
+
+      if (!searchInput.value && activeType === 'all') {
+        return;
+      }
+
+      event.preventDefault();
+      searchInput.value = '';
+      activeType = 'all';
+      applyFilters();
+    });
+  }
+
+  if (resetButton) {
+    resetButton.addEventListener('click', function () {
+      if (searchInput) {
+        searchInput.value = '';
+      }
+
+      activeType = 'all';
+      applyFilters();
+
+      if (searchInput) {
+        searchInput.focus();
+      }
+    });
   }
 
   function copyWithFallback(text) {
@@ -124,5 +257,6 @@
     });
   });
 
+  restoreStoredState();
   applyFilters();
 })();
