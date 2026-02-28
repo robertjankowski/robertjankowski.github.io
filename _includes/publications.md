@@ -49,7 +49,13 @@
         {% endif %}
 
         <div>
-          <p class="publication-tag">{{ link.conference_short }}{% if publication_year != "" %} · {{ publication_year }}{% endif %} · {{ publication_type }}</p>
+          <p class="publication-tag">
+            {% if publication_year != "" %}
+            <span class="publication-year">{{ publication_year }}</span>
+            {% endif %}
+            <span class="publication-venue">{{ link.conference_short }}</span>
+            <span class="publication-type">{{ publication_type }}</span>
+          </p>
           <h2 class="publication-title">
             {% if link.pdf %}
             {% if link.pdf contains '://' %}
@@ -62,7 +68,7 @@
             {% endif %}
           </h2>
           <p class="publication-authors">{{ link.authors }}</p>
-          <p class="publication-meta"><em>{{ link.conference }}</em></p>
+          <p class="publication-meta">{{ link.conference }}</p>
 
           <p class="publication-actions">
             {% if link.pdf %}

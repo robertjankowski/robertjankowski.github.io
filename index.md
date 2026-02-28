@@ -23,7 +23,9 @@ permalink: /
     <span class="hero-title-line">a researcher working on</span>
     <span class="hero-title-line">network geometry and machine learning</span>
   </h1>
-  <p class="hero-subhead">{{ site.position }} at <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>.</p>
+  <p class="hero-subhead">
+    {{ site.position }} at <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>.
+  </p>
 
   {% assign home_research_interests = "network geometry|hyperbolic embeddings|machine learning|graph neural networks|TDA" | split: "|" %}
   <div class="research-interests" aria-label="Research interests">
@@ -37,20 +39,11 @@ permalink: /
 
   <ul class="quick-links">
     <li><a class="social-link" href="mailto:{{ email_href }}" aria-label="Email {{ email_href }}">{% include social-icon.html name="email" %}{{ email_text }}</a></li>
-    {% if site.google_scholar %}
-    <li><a class="social-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">{% include social-icon.html name="scholar" %}Google Scholar</a></li>
-    {% endif %}
     {% if site.cv_link %}
     <li><a class="social-link" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">{% include social-icon.html name="cv" %}CV</a></li>
     {% endif %}
-    {% if site.github_link %}
-    <li><a class="social-link" href="{{ site.github_link }}" target="_blank" rel="noopener">{% include social-icon.html name="github" %}GitHub</a></li>
-    {% endif %}
-    {% if site.linkedin %}
-    <li><a class="social-link" href="{{ site.linkedin }}" target="_blank" rel="noopener">{% include social-icon.html name="linkedin" %}LinkedIn</a></li>
-    {% endif %}
-    {% if site.twitter %}
-    <li><a class="social-link" href="{{ site.twitter }}" target="_blank" rel="noopener">{% include social-icon.html name="x" %}X</a></li>
+    {% if site.google_scholar %}
+    <li><a class="social-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">{% include social-icon.html name="scholar" %}Google Scholar</a></li>
     {% endif %}
   </ul>
 

@@ -5,7 +5,7 @@
 </section>
 
 <section class="talk-columns" aria-label="Talk archive">
-  <div class="talk-group" id="invited-talks">
+  <div class="talk-group" id="invited-talks" data-talk-group>
     <h2>Invited Talks</h2>
 
     <article class="talk-entry">
@@ -14,9 +14,11 @@
         <li>Faculty of Physics, Warsaw University of Technology, Poland, 2024.</li>
       </ul>
     </article>
+
+    <button class="talk-toggle" type="button" data-talk-toggle aria-controls="invited-talks" aria-expanded="false" hidden>show more</button>
   </div>
 
-  <div class="talk-group">
+  <div class="talk-group" id="contributed-talks" data-talk-group>
     <h2>Contributed Talks</h2>
 
     <article class="talk-entry">
@@ -78,9 +80,11 @@
         <li>10th Polish Symposium on Physics in Economy and Social Sciences, 2019.</li>
       </ul>
     </article>
+
+    <button class="talk-toggle" type="button" data-talk-toggle aria-controls="contributed-talks" aria-expanded="false" hidden>show more</button>
   </div>
 
-  <div class="talk-group">
+  <div class="talk-group" id="posters" data-talk-group>
     <h2>Posters</h2>
 
     <article class="talk-entry">
@@ -117,5 +121,7 @@
         <li>11th Polish Symposium on Physics in Economy and Social Sciences, 2021.</li>
       </ul>
     </article>
+
+    <button class="talk-toggle" type="button" data-talk-toggle aria-controls="posters" aria-expanded="false" hidden>show more</button>
   </div>
 </section>

@@ -52,7 +52,7 @@ body {
   color: var(--fg);
   font-family: var(--font-sans);
   font-size: var(--body-size);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65;
   text-rendering: optimizeLegibility;
   -ms-overflow-style: none;
@@ -125,6 +125,7 @@ a:hover {
 .footer-links a,
 .publication-filter,
 .publication-reset,
+.talk-toggle,
 .publication-actions a,
 .publication-actions button {
   min-height: var(--hit-target);
@@ -419,10 +420,11 @@ button:focus-visible {
 .hero-title {
   margin: var(--space-3) 0 var(--space-5);
   width: fit-content;
-  max-width: 30ch;
+  max-width: 40ch;
   font-family: var(--font-display);
   font-size: var(--hero-size);
   line-height: 0.94;
+  text-wrap: balance;
   letter-spacing: -0.04em;
 }
 
@@ -434,8 +436,13 @@ button:focus-visible {
   max-width: 56ch;
   color: var(--muted);
   font-size: clamp(0.98rem, 0.18vw + 0.98rem, 1.06rem);
-  font-style: italic;
+  font-family: var(--font-sans-strong);
+  font-style: normal;
   margin: 0 0 var(--space-5);
+}
+
+.hero-subhead-focus {
+  color: var(--fg);
 }
 
 .research-interests {
@@ -523,6 +530,7 @@ button:focus-visible {
   font-family: var(--font-display);
   font-size: var(--section-size);
   line-height: 1.1;
+  text-wrap: balance;
 }
 
 .about-copy p {
@@ -546,7 +554,6 @@ button:focus-visible {
 
 .about-affiliation {
   color: var(--muted);
-  font-style: italic;
 }
 
 .work-block {
@@ -591,6 +598,7 @@ button:focus-visible {
   aspect-ratio: 16 / 10;
   object-fit: cover;
   border: 1px solid var(--line);
+  border-radius: 10px;
 }
 
 .feature-content {
@@ -623,6 +631,7 @@ button:focus-visible {
   font-family: var(--font-display);
   font-size: clamp(1.15rem, 1.7vw, 1.55rem);
   line-height: 1.16;
+  text-wrap: balance;
 }
 
 .feature-title a {
@@ -638,10 +647,6 @@ button:focus-visible {
   margin: 0;
   color: var(--muted);
   font-size: 0.94rem;
-}
-
-.feature-meta {
-  font-style: italic;
 }
 
 .feature-links {
@@ -677,6 +682,7 @@ button:focus-visible {
   aspect-ratio: 16 / 10;
   object-fit: cover;
   border: 1px solid var(--line);
+  border-radius: 10px;
 }
 
 .project-media-link {
@@ -693,6 +699,7 @@ button:focus-visible {
   font-family: var(--font-display);
   font-size: clamp(1.04rem, 1.4vw, 1.24rem);
   line-height: 1.15;
+  text-wrap: balance;
 }
 
 .project-subtitle {
@@ -702,6 +709,12 @@ button:focus-visible {
   font-size: var(--caption-size);
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.project-outcome {
+  margin: 0.45rem 0 0;
+  color: var(--fg);
+  font-family: var(--font-sans-strong);
 }
 
 .project-description {
@@ -800,6 +813,7 @@ button:focus-visible {
   font-size: var(--title-size);
   letter-spacing: -0.03em;
   line-height: 1.04;
+  text-wrap: balance;
 }
 
 .page-lead {
@@ -908,15 +922,35 @@ button:focus-visible {
   aspect-ratio: 16 / 10;
   object-fit: cover;
   border: 1px solid var(--line);
+  border-radius: 10px;
 }
 
 .publication-tag {
   margin: 0 0 var(--space-2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.55rem;
   font-family: var(--font-sans-strong);
   color: var(--muted);
   font-size: var(--caption-size);
   letter-spacing: 0.1em;
+}
+
+.publication-venue,
+.publication-type {
   text-transform: uppercase;
+}
+
+.publication-year {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(21, 20, 18, 0.02);
+  color: var(--fg);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+  padding: 0.12rem 0.5rem;
 }
 
 .publication-title {
@@ -924,6 +958,7 @@ button:focus-visible {
   font-family: var(--font-display);
   font-size: clamp(1.16rem, 1.6vw, 1.5rem);
   line-height: 1.15;
+  text-wrap: balance;
 }
 
 .publication-title a {
@@ -941,7 +976,6 @@ button:focus-visible {
 }
 
 .publication-meta {
-  font-style: italic;
 }
 
 .publication-actions {
@@ -993,12 +1027,6 @@ button:focus-visible {
   font-size: 0.84rem;
 }
 
-.publication-state-note {
-  margin: -0.35rem 0 var(--space-4);
-  color: var(--muted);
-  font-size: var(--caption-size);
-}
-
 .publication-note {
   margin: var(--space-2) 0 0;
   color: var(--accent);
@@ -1020,6 +1048,7 @@ button:focus-visible {
   font-family: var(--font-display);
   font-size: clamp(1.35rem, 2.2vw, 2rem);
   line-height: 1.1;
+  text-wrap: balance;
 }
 
 .talk-entry + .talk-entry {
@@ -1032,6 +1061,7 @@ button:focus-visible {
   margin: 0 0 var(--space-2);
   font-family: var(--font-display);
   font-size: clamp(1.04rem, 1.2vw, 1.25rem);
+  text-wrap: balance;
 }
 
 .talk-entry ul {
@@ -1042,6 +1072,26 @@ button:focus-visible {
 
 .talk-entry li {
   margin-bottom: 0.25rem;
+}
+
+.talk-toggle {
+  margin-top: var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: 400 var(--caption-size) / 1 var(--font-sans);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.5rem 0.85rem;
+  transition: border-color var(--motion-fast) ease, color var(--motion-fast) ease, background-color var(--motion-fast) ease;
+}
+
+.talk-toggle:hover,
+.talk-toggle:focus-visible {
+  border-color: rgba(21, 20, 18, 0.45);
+  color: var(--fg);
 }
 
 .site-footer {
