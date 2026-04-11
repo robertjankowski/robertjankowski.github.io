@@ -59,7 +59,7 @@ permalink: /
     </div>
     {% endif %}
     <div class="about-copy">
-      <p>I am a Postdoctoral Fellow at TU Delft, working with <a href="https://www.maksimkitsak.com/">Maksim Kitsak</a> on shortest paths in large incomplete networks. I received my PhD in network geometry from the University of Barcelona, where I studied network embeddings in multidimensional hyperbolic spaces with <a href="http://complex.fmc.ub.edu/~mbogunya/">Marián Boguñá</a> and <a href="https://mappingcomplexity.net/maserrano/">M. Ángeles Serrano</a>..</p>
+      <p>I am a Postdoctoral Fellow at TU Delft, working with <a href="https://www.maksimkitsak.com/">Maksim Kitsak</a> on shortest paths in large incomplete networks. I received my PhD in network geometry from the University of Barcelona, where I studied network embeddings in multidimensional hyperbolic spaces with <a href="http://complex.fmc.ub.edu/~mbogunya/">Marián Boguñá</a> and <a href="https://mappingcomplexity.net/maserrano/">M. Ángeles Serrano</a>.</p>
       <p class="about-affiliation"><strong>{{ site.position }}</strong> · <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a></p>
     </div>
   </div>
