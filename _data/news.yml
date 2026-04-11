@@ -1,4 +1,8 @@
 main:
+  - date: Mar. 2026
+    text: >-
+      Article: <a href="https://iopscience.iop.org/article/10.1088/2632-2153/ae5503">Task complexity shapes internal representations and robustness in neural networks</a> published in Machine Learning: Science and and Technology.
+
   - date: Jan. 2026
     text: >-
       Article "<a href="https://doi.org/10.1103/pk8t-px35">Shortest-path percolation on scale-free networks</a>" published in Physical Review E.
