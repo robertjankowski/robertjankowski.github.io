@@ -1,6 +1,6 @@
-<h2>News</h2>
+<h1>News</h1>
 
-{% assign visible_count = 7 %}
+{% assign visible_count = 6 %}
 {% assign total_news = site.data.news.main | size %}
 
 <ul class="news-list">

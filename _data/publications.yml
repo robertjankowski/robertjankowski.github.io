@@ -1,5 +1,32 @@
 main:
 
+  - title: "Task complexity shapes internal representations and robustness in neural networks"
+    authors: <strong>R. Jankowski</strong>, F. Radicchi, M. À. Serrano, M. Boguñá, S. Fortunato
+    conference_short: MLST
+    conference: Machine Leaerning Science and Technology. 7 025045, 2026
+    year: 2026
+    type: published
+    featured: true
+    pdf: https://iopscience.iop.org/article/10.1088/2632-2153/ae5503
+    arxiv: 2508.05463
+    image: /assets/teaser/jankowski_task.png
+    code: https://github.com/robertjankowski/probing-neural-networks/
+    bibtex: | 
+     @article{Jankowski_2026,
+      doi = {10.1088/2632-2153/ae5503},
+      url = {https://doi.org/10.1088/2632-2153/ae5503},
+      year = {2026},
+      month = {apr},
+      publisher = {IOP Publishing},
+      volume = {7},
+      number = {2},
+      pages = {025045},
+      author = {Jankowski, Robert and Radicchi, Filippo and Serrano, M Ángeles and Boguñá, Marián and Fortunato, Santo},
+      title = {Task complexity shapes internal representations and robustness in neural networks},
+      journal = {Machine Learning: Science and Technology},
+     }
+
+    
   - title: "Topological Deep Learning Challenge 2025: Expanding the Data Landscape"
     authors: >-
       G. Bernárdez, L. Telyatnikov, M. Papillon, M. Montagna, R. Theiler, L. Cornelis,
@@ -114,34 +141,12 @@ main:
         url={https://arxiv.org/abs/2509.08350}, 
       }
 
-  - title: "Task complexity shapes internal representations and robustness in neural networks"
-    authors: <strong>R. Jankowski</strong>, F. Radicchi, M. À. Serrano, M. Boguñá, S. Fortunato
-    conference_short: arXiv
-    conference: arXiv preprint arXiv:2508.05463, 2025.
-    year: 2025
-    type: preprint
-    pdf: https://arxiv.org/abs/2508.05463
-    arxiv: 2508.05463
-    image: /assets/teaser/jankowski_task.png
-    code: https://github.com/robertjankowski/probing-neural-networks/
-    bibtex: | 
-     @misc{jankowski2025taskcomplexityshapesinternal,
-        title={Task complexity shapes internal representations and robustness in neural networks}, 
-        author={Robert Jankowski and Filippo Radicchi and M. Ángeles Serrano and Marián Boguñá and Santo Fortunato},
-        year={2025},
-        eprint={2508.05463},
-        archivePrefix={arXiv},
-        primaryClass={cs.LG},
-        url={https://arxiv.org/abs/2508.05463}, 
-      }
-
   - title: "Hyperbolic Benchmarking Unveils Network Topology-Feature Relationship in GNN Performance"
     authors: R. Aliakbarisani, <strong>R. Jankowski</strong>, M. À. Serrano, M. Boguñá
     conference_short: arXiv
     conference: arXiv preprint arXiv:2406.02772, 2024.
     year: 2024
     type: preprint
-    featured: true
     pdf: https://arxiv.org/abs/2406.02772
     arxiv: 2406.02772
     image: /assets/teaser/hypbench.png
