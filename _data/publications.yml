@@ -3,7 +3,7 @@ main:
   - title: "Task complexity shapes internal representations and robustness in neural networks"
     authors: <strong>R. Jankowski</strong>, F. Radicchi, M. À. Serrano, M. Boguñá, S. Fortunato
     conference_short: MLST
-    conference: Machine Leaerning Science and Technology. 7 025045, 2026
+    conference: Machine Learning Science and Technology. 7 025045, 2026
     year: 2026
     type: published
     featured: true
