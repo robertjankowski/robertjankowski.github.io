@@ -51,7 +51,6 @@ permalink: /
 </section>
 
 <section class="home-section" id="about">
-  <p class="section-label">About</p>
   <div class="about-grid">
     {% if site.avatar %}
     <div class="about-photo">
@@ -67,7 +66,6 @@ permalink: /
 
 {% if site.data.news.main and site.data.news.main.size > 0 %}
 <section class="home-section" id="news">
-  <p class="section-label">News</p>
   <ul class="news-list-clean">
     {% for item in site.data.news.main limit: 5 %}
     <li>
@@ -80,7 +78,6 @@ permalink: /
 {% endif %}
 
 <section class="home-section" id="selected-publications">
-  <p class="section-label">Publications</p>
   <div class="work-block">
     <div>
       <h2>Selected Publications</h2>
@@ -123,9 +120,10 @@ permalink: /
 </section>
 
 <section class="home-section" id="prospective-collaborators-students">
-  <p class="section-label">Opportunities</p>
   <h2>Prospective Collaborators and Students</h2>
 
-  I am open to collaborations with researchers and students interested in network geometry, graph machine learning, and network science of neural networks. Contact me if you are interested working together on these topics or have ideas for projects. Mail: <a href="mailto:{{ email_href }}" aria-label="Email {{ email_href }}">{{ email_text }}</a>.
+  I am open to collaborations with researchers and students interested in network geometry, graph machine learning, and network science of neural networks. 
+  <br>
+  If you are interested in working together on these topics, feel free to contact me: <a href="mailto:{{ email_href }}" aria-label="Email {{ email_href }}">{{ email_text }}</a>.
 
 </section>
