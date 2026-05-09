@@ -13,10 +13,13 @@
         <p class="menu-label">Navigate</p>
         <nav class="menu-links" aria-label="Menu links">
           <a href="{{ "/#about" | relative_url }}">about</a>
-          <a href="{{ "/#work" | relative_url }}">work</a>
-          <a href="{{ "/#talks" | relative_url }}">talks</a>
+          <a href="{{ "/research/" | relative_url }}">research</a>
           <a href="{{ "/publications/" | relative_url }}">publications</a>
-          <a href="{{ "/talks/" | relative_url }}">all talks</a>
+          <a href="{{ "/software/" | relative_url }}">software</a>
+          <a href="{{ "/talks/" | relative_url }}">talks</a>
+          {% if site.cv_link %}
+          <a href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">CV</a>
+          {% endif %}
         </nav>
       </div>
 

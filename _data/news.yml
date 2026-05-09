@@ -1,5 +1,5 @@
 main:
-- date: May. 2026
+  - date: May. 2026
     text: >-
       Article: <a href="https://www.nature.com/articles/s41467-026-72687-z">Chordless cycle filtrations for dimensionality detection in complex networks via topological data analysis</a> published in Nature Communications.
 

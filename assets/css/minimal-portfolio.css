@@ -518,10 +518,10 @@ button:focus-visible {
 }
 
 #about,
-#work,
-#projects,
-#talks,
-#news {
+#news,
+#selected-publications,
+#prospective-collaborators-students,
+#software {
   scroll-margin-top: calc(var(--header-height) + var(--space-5));
 }
 

@@ -7,15 +7,21 @@ main:
   # - title: "Services"
   #   url: services/
 
-  - title: "Talks"
-    url: talks/
-    right: true 
+  - title: "About"
+    url: /#about
 
-  #- title: "Teaching"
-  #  url: ./teaching.html
+  - title: "Research"
+    url: research/
 
   - title: "Publications"
     url: publications/
 
-  - title: "Home"
-    url: /
+  - title: "Software"
+    url: software/
+
+  - title: "Talks"
+    url: talks/
+
+  - title: "CV"
+    url: /assets/jankowski_CV.pdf
+    right: true

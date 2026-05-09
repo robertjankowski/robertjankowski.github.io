@@ -65,8 +65,22 @@ permalink: /
   </div>
 </section>
 
-<section class="home-section" id="work">
-  <p class="section-label">Work</p>
+{% if site.data.news.main and site.data.news.main.size > 0 %}
+<section class="home-section" id="news">
+  <p class="section-label">News</p>
+  <ul class="news-list-clean">
+    {% for item in site.data.news.main limit: 5 %}
+    <li>
+      <span class="news-date">{{ item.date }}</span>
+      <p class="news-item">{{ item.text }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<section class="home-section" id="selected-publications">
+  <p class="section-label">Publications</p>
   <div class="work-block">
     <div>
       <h2>Selected Publications</h2>
@@ -108,30 +122,10 @@ permalink: /
   </div>
 </section>
 
-{% include projects.html %}
+<section class="home-section" id="prospective-collaborators-students">
+  <p class="section-label">Opportunities</p>
+  <h2>Prospective Collaborators and Students</h2>
 
-<section class="home-section" id="talks">
-  <p class="section-label">Talks</p>
-  <h2>Selected Talks</h2>
-  <ul class="talk-highlight-list">
-    <li><strong>Network representations reveal structured uncertainty in music.</strong> XIII Polish Symposium on Physics in Economics and Social Sciences, Warsaw, Poland, 2025.</li>
-    <li><strong>Task complexity shapes internal representations and robustness in neural networks.</strong> IAIFI PhD Summer School, Boston, USA, 2025.</li>
-    <li><strong>Mapping bipartite networks into multidimensional hyperbolic spaces.</strong> NetSci 2025, Maastricht, The Netherlands, 2025.</li>
-    <li><strong>Network geometry and multidimensional hyperbolic maps of real networks.</strong> Faculty of Physics, Warsaw University of Technology, Poland, 2024.</li>
-  </ul>
-  <p class="section-linkline"><a href="{{ "/talks/" | relative_url }}">See full talks list</a></p>
-</section>
+  I am open to collaborations with researchers and students interested in network geometry, graph machine learning, and network science of neural networks. Contact me if you are interested working together on these topics or have ideas for projects. Mail: <a href="mailto:{{ email_href }}" aria-label="Email {{ email_href }}">{{ email_text }}</a>.
 
-{% if site.data.news.main and site.data.news.main.size > 0 %}
-<section class="home-section" id="news">
-  <p class="section-label">News</p>
-  <ul class="news-list-clean">
-    {% for item in site.data.news.main limit: 8 %}
-    <li>
-      <span class="news-date">{{ item.date }}</span>
-      <p class="news-item">{{ item.text }}</p>
-    </li>
-    {% endfor %}
-  </ul>
 </section>
-{% endif %}

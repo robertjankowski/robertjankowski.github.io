@@ -1,8 +1,5 @@
 {% if site.data.projects.main and site.data.projects.main.size > 0 %}
-<section class="home-section" id="projects">
-  <p class="section-label">Projects</p>
-  <h2>Projects / Software</h2>
-
+<section class="software-list" id="software" aria-label="Software">
   <div class="project-grid">
     {% for project in site.data.projects.main %}
     {% assign project_image_href = "" %}
