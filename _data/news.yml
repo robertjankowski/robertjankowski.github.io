@@ -1,4 +1,8 @@
 main:
+- date: May. 2026
+    text: >-
+      Article: <a href="https://www.nature.com/articles/s41467-026-72687-z">Chordless cycle filtrations for dimensionality detection in complex networks via topological data analysis</a> published in Nature Communications.
+
   - date: Mar. 2026
     text: >-
       Article: <a href="https://iopscience.iop.org/article/10.1088/2632-2153/ae5503">Task complexity shapes internal representations and robustness in neural networks</a> published in Machine Learning: Science and Technology.

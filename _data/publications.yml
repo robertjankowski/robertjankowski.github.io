@@ -1,5 +1,24 @@
 main:
 
+  - title: "Chordless cycle filtrations for dimensionality detection in complex networks via topological data analysis"
+    authors: A. F. Marcús, <strong>R. Jankowski</strong>, M. V. Miñana, C. Casacuberta, M. À. Serrano
+    conference_short: Nature Communications
+    conference: Nature Communications, 2026
+    year: 2026
+    featured: true
+    type: published
+    pdf: https://www.nature.com/articles/s41467-026-72687-z
+    arxiv: 2509.08350 
+    image: /assets/teaser/tda_dimension.png
+    bibtex: |
+      @article{marcús2025chordlesscyclefiltrationsdimensionality,
+        title={Chordless cycle filtrations for dimensionality detection in complex networks via topological data analysis}, 
+        author={Aina Ferrà Marcús and Robert Jankowski and Meritxell Vila Miñana and Carles Casacuberta and M. Ángeles Serrano},
+        year={2026},
+        journal={Nature Communications} 
+      }
+
+
   - title: "Task complexity shapes internal representations and robustness in neural networks"
     authors: <strong>R. Jankowski</strong>, F. Radicchi, M. À. Serrano, M. Boguñá, S. Fortunato
     conference_short: MLST
@@ -106,7 +125,6 @@ main:
     conference: arXiv preprint arXiv:2509.14053, 2025.
     year: 2025
     type: preprint
-    featured: true
     pdf: https://arxiv.org/abs/2509.14053
     arxiv: 2509.14053
     image: /assets/teaser/music_networks.png
@@ -119,26 +137,6 @@ main:
         archivePrefix={arXiv},
         primaryClass={physics.soc-ph},
         url={https://arxiv.org/abs/2509.14053}, 
-      }
-
-  - title: "Chordless cycle filtrations for dimensionality detection in complex networks via topological data analysis"
-    authors: A. F. Marcús, <strong>R. Jankowski</strong>, M. V. Miñana, C. Casacuberta, M. À. Serrano
-    conference_short: arXiv
-    conference: arXiv preprint arXiv:2509.08350, 2025.
-    year: 2025
-    type: preprint
-    pdf: https://arxiv.org/abs/2509.08350
-    arxiv: 2509.08350 
-    image: /assets/teaser/tda_dimension.png
-    bibtex: |
-      @misc{marcús2025chordlesscyclefiltrationsdimensionality,
-        title={Chordless cycle filtrations for dimensionality detection in complex networks via topological data analysis}, 
-        author={Aina Ferrà Marcús and Robert Jankowski and Meritxell Vila Miñana and Carles Casacuberta and M. Ángeles Serrano},
-        year={2025},
-        eprint={2509.08350},
-        archivePrefix={arXiv},
-        primaryClass={physics.soc-ph},
-        url={https://arxiv.org/abs/2509.08350}, 
       }
 
   - title: "Hyperbolic Benchmarking Unveils Network Topology-Feature Relationship in GNN Performance"
