@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-<section class="talk-columns" aria-label="Research themes">
+<section class="talk-columns research-themes" aria-label="Research themes">
   <div class="talk-group">
     <p class="section-label">Theme 1</p>
     <h2>Network Geometry</h2>

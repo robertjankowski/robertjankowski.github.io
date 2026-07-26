@@ -7,65 +7,43 @@ permalink: /
 {% assign email_href = site.email | replace: " (at) ", "@" | replace: " ", "" %}
 {% assign email_text = site.email | replace: " (at) ", "@" %}
 
-<section class="home-hero" aria-labelledby="hero-title">
-  <div class="hero-figures" aria-hidden="true">
-    <img
-      class="hero-figure hero-figure-a"
-      src="{{ "/assets/img/panel5_fao_apples_S2_pyvista_view_1_with_links_transparent.png" | relative_url }}"
-      alt=""
-      loading="eager"
-      decoding="async"
-    />
-  </div>
-  <p class="section-label">Hello,</p>
-  <h1 class="hero-title" id="hero-title">
-    <span class="hero-title-line">I am Robert Jankowski,</span>
-    <span class="hero-title-line">a researcher working on</span>
-    <span class="hero-title-line">network geometry and machine learning</span>
-  </h1>
-  <p class="hero-subhead">
-    {{ site.position }} at <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>.
-  </p>
-
-  {% assign home_research_interests = "network geometry|hyperbolic embeddings|machine learning|graph neural networks|TDA" | split: "|" %}
-  <div class="research-interests" aria-label="Research interests">
-    <p class="research-interests-label">Research interests</p>
-    <ul class="research-chip-list">
-      {% for interest in home_research_interests %}
-      <li>{{ interest }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <ul class="quick-links">
-    <li><a class="social-link" href="mailto:{{ email_href }}" aria-label="Email {{ email_href }}">{% include social-icon.html name="email" %}{{ email_text }}</a></li>
-    {% if site.cv_link %}
-    <li><a class="social-link" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">{% include social-icon.html name="cv" %}CV</a></li>
-    {% endif %}
-    {% if site.google_scholar %}
-    <li><a class="social-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">{% include social-icon.html name="scholar" %}Google Scholar</a></li>
-    {% endif %}
-  </ul>
-
-  <a class="scroll-cue" href="#about">scroll &amp; explore ↓</a>
-</section>
-
-<section class="home-section" id="about">
-  <div class="about-grid">
+<section class="home-hero" id="about" aria-labelledby="hero-title">
+  <div class="hero-profile">
     {% if site.avatar %}
-    <div class="about-photo">
+    <div class="hero-photo">
       <img src="{{ site.avatar }}" alt="{{ site.title }} portrait" loading="lazy" />
     </div>
     {% endif %}
-    <div class="about-copy">
-      <p>I am a Postdoctoral Fellow at TU Delft, working with <a href="https://www.maksimkitsak.com/">Maksim Kitsak</a> on shortest paths in large incomplete networks. I received my PhD in network geometry from the University of Barcelona, where I studied network embeddings in multidimensional hyperbolic spaces with <a href="http://complex.fmc.ub.edu/~mbogunya/">Marián Boguñá</a> and <a href="https://mappingcomplexity.net/maserrano/">M. Ángeles Serrano</a>.</p>
-      <p class="about-affiliation"><strong>{{ site.position }}</strong> · <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a></p>
+    <div class="hero-copy">
+      <h1 class="hero-title" id="hero-title">
+        Robert Jankowski
+      </h1>
+      <p class="hero-subhead">
+        {{ site.position }} at <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>.
+      </p>
+      <p class="hero-bio">
+        I work with <a href="https://www.maksimkitsak.com/" target="_blank" rel="noopener">Maksim Kitsak</a> on shortest paths in large incomplete networks. I received my PhD in network geometry from the University of Barcelona, where I studied network embeddings in multidimensional hyperbolic spaces with <a href="http://complex.fmc.ub.edu/~mbogunya/" target="_blank" rel="noopener">Marián Boguñá</a> and <a href="https://mappingcomplexity.net/maserrano/" target="_blank" rel="noopener">M. Ángeles Serrano</a>.
+      </p>
+
+    </div>
+
+    <div class="hero-actions">
+      <ul class="quick-links">
+        <li><a class="social-link" href="mailto:{{ email_href }}" aria-label="Email {{ email_href }}">{% include social-icon.html name="email" %}{{ email_text }}</a></li>
+        {% if site.cv_link %}
+        <li><a class="social-link" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">{% include social-icon.html name="cv" %}CV</a></li>
+        {% endif %}
+        {% if site.google_scholar %}
+        <li><a class="social-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">{% include social-icon.html name="scholar" %}Google Scholar</a></li>
+        {% endif %}
+      </ul>
     </div>
   </div>
 </section>
 
 {% if site.data.news.main and site.data.news.main.size > 0 %}
 <section class="home-section" id="news">
+  <h2>News</h2>
   <ul class="news-list-clean">
     {% for item in site.data.news.main limit: 5 %}
     <li>

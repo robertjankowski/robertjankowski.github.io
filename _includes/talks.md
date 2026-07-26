@@ -1,5 +1,4 @@
 <section class="page-intro">
-  <p class="section-label">Work</p>
   <h1 class="page-title">Talks</h1>
   <p class="page-lead">Invited talks, contributed talks, and posters.</p>
 </section>

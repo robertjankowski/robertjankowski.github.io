@@ -1,5 +1,4 @@
 <section class="page-intro">
-  <p class="section-label">Work</p>
   <h1 class="page-title">Publications</h1>
   <p class="page-lead">
     {% if site.google_scholar %}
