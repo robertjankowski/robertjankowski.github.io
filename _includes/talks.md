@@ -22,16 +22,17 @@
     <h2>Contributed Talks</h2>
 
     <article class="talk-entry">
-      <h3>Network representations reveal structured uncertainty in music.</h3>
+      <h3>Task complexity shapes internal representations and robustness in neural networks.</h3>
       <ul>
-        <li>XIII Polish Symposium on Physics in Economics and Social Sciences, Warsaw, Poland, 2025.</li>
+        <li>Network Science Informs AI (NSIA) Satellite at NetSci 2026, Boston, USA, 2026. Best contributed talk.</li>
+        <li>IAIFI PhD Summer School, Boston, USA, 2025.</li>
       </ul>
     </article>
 
     <article class="talk-entry">
-      <h3>Task complexity shapes internal representations and robustness in neural networks.</h3>
+      <h3>Network representations reveal structured uncertainty in music.</h3>
       <ul>
-        <li>IAIFI PhD Summer School, Boston, USA, 2025.</li>
+        <li>XIII Polish Symposium on Physics in Economics and Social Sciences, Warsaw, Poland, 2025.</li>
       </ul>
     </article>
 
@@ -86,6 +87,20 @@
 
   <div class="talk-group" id="posters" data-talk-group>
     <h2>Posters</h2>
+
+    <article class="talk-entry">
+      <h3>Benchmarking Hyperbolic Graph Embeddings for Link Prediction and Topology Reconstruction.</h3>
+      <ul>
+        <li>NetSci 2026, Boston, USA, 2026.</li>
+      </ul>
+    </article>
+
+    <article class="talk-entry">
+      <h3>HypBench: Hyperbolic Benchmark for Graph Neural Network Performance.</h3>
+      <ul>
+        <li>Non-Euclidean Foundation Models and Geometric Learning Workshop @ NeurIPS 2025, San Diego, USA, 2025.</li>
+      </ul>
+    </article>
 
     <article class="talk-entry">
       <h3>Task complexity shapes internal representations and robustness in neural networks.</h3>

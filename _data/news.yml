@@ -1,7 +1,23 @@
 main:
+  - date: Jun. 2026
+    text: >-
+      Article: <a href="https://arxiv.org/abs/2509.14053">Trade-offs between structural richness and perceptual robustness in music network representations</a> accepted in Physical Review Research.
+
+  - date: Jun. 2026
+    text: >-
+      Article: <a href="https://doi.org/10.1109/TNNLS.2026.3697597">HypBench: Hyperbolic Benchmark for Graph Neural Network Performance</a> published in IEEE Transactions on Neural Networks and Learning Systems.
+
+  - date: Jun. 2026
+    text: >-
+      Best Contributed Talk at the Network Science Informs AI Satellite at NetSci 2026.
+
   - date: May. 2026
     text: >-
       Article: <a href="https://www.nature.com/articles/s41467-026-72687-z">Chordless cycle filtrations for dimensionality detection in complex networks via topological data analysis</a> published in Nature Communications.
+
+  - date: Apr. 2026
+    text: >-
+      New preprint: "<a href="https://arxiv.org/abs/2604.15265">Motif-based filtrations for persistent homology: A framework for graph isomorphism and property prediction</a>" is available online.
 
   - date: Mar. 2026
     text: >-
@@ -21,7 +37,7 @@ main:
 
   - date: Sep. 2025
     text: >-
-      New preprint: "Network representations reveal structured uncertainty in music" is available online (<a href="https://arxiv.org/abs/2509.14053">link</a>).
+      New preprint: "Trade-offs between structural richness and communication efficiency in music network representations" is available online (<a href="https://arxiv.org/abs/2509.14053">link</a>).
 
   - date: Sep. 2025
     text: >-
@@ -57,7 +73,7 @@ main:
 
   - date: Jun. 2024
     text: >-
-      New preprint: "Hyperbolic Benchmarking Unveils Network Topology-Feature Relationship in GNN Performance" is available online (<a href="https://arxiv.org/abs/2406.02772">link</a>).
+      New preprint: "HypBench: Hyperbolic Benchmark for Graph Neural Network Performance" is available online (<a href="https://arxiv.org/abs/2406.02772">link</a>).
 
   - date: May. 2024
     text: >-

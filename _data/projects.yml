@@ -49,6 +49,6 @@ main:
     image: /assets/teaser/hypbench.png
     links:
       - label: paper
-        url: https://arxiv.org/abs/2406.02772
+        url: https://doi.org/10.1109/TNNLS.2026.3697597
       - label: code
         url: https://github.com/networkgeometry/hyperbolic-benchmark-gnn/

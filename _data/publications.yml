@@ -1,9 +1,48 @@
 main:
 
+  - title: "Trade-offs between structural richness and perceptual robustness in music network representations"
+    authors: L. B. Rosselló, <strong>R. Jankowski</strong>, H. Bersini, M. Boguñá, M. À. Serrano
+    conference_short: Physical Review Research
+    conference: Physical Review Research, accepted, 2026.
+    year: 2026
+    type: published
+    pdf: https://arxiv.org/abs/2509.14053
+    arxiv: 2509.14053
+    image: /assets/teaser/music_networks.png
+    bibtex: |
+      @article{rossello2026tradeoffs,
+        title={Trade-offs between structural richness and perceptual robustness in music network representations},
+        author={Rosselló, Lluc Bono and Jankowski, Robert and Bersini, Hugues and Boguñá, Marián and Serrano, M. Ángeles},
+        journal={Physical Review Research},
+        year={2026},
+        note={Accepted}
+      }
+
+  - title: "HypBench: Hyperbolic Benchmark for Graph Neural Network Performance"
+    authors: R. Aliakbarisani<sup>*</sup>, <strong>R. Jankowski</strong><sup>*</sup>, M. À. Serrano, M. Boguñá
+    conference_short: IEEE TNNLS
+    conference: IEEE Transactions on Neural Networks and Learning Systems, 2026.
+    year: 2026
+    type: published
+    pdf: https://doi.org/10.1109/TNNLS.2026.3697597
+    arxiv: 2406.02772
+    image: /assets/teaser/hypbench.png
+    code: https://github.com/networkgeometry/hyperbolic-benchmark-gnn/
+    notes: "* Equal contribution."
+    bibtex: |
+      @article{aliakbarisani2026hypbench,
+        title={HypBench: Hyperbolic Benchmark for Graph Neural Network Performance},
+        author={Aliakbarisani, Roya and Jankowski, Robert and Serrano, M. Ángeles and Boguñá, Marián},
+        journal={IEEE Transactions on Neural Networks and Learning Systems},
+        year={2026},
+        pages={1--14},
+        doi={10.1109/TNNLS.2026.3697597}
+      }
+
   - title: "Chordless cycle filtrations for dimensionality detection in complex networks via topological data analysis"
     authors: A. F. Marcús, <strong>R. Jankowski</strong>, M. V. Miñana, C. Casacuberta, M. À. Serrano
     conference_short: Nature Communications
-    conference: Nature Communications, 2026
+    conference: Nature Communications 17, 6105, 2026.
     year: 2026
     featured: true
     type: published
@@ -11,18 +50,22 @@ main:
     arxiv: 2509.08350 
     image: /assets/teaser/tda_dimension.png
     bibtex: |
-      @article{marcús2025chordlesscyclefiltrationsdimensionality,
+      @article{marcus2026chordlesscyclefiltrationsdimensionality,
         title={Chordless cycle filtrations for dimensionality detection in complex networks via topological data analysis}, 
         author={Aina Ferrà Marcús and Robert Jankowski and Meritxell Vila Miñana and Carles Casacuberta and M. Ángeles Serrano},
         year={2026},
-        journal={Nature Communications} 
+        journal={Nature Communications},
+        volume={17},
+        number={1},
+        pages={6105},
+        doi={10.1038/s41467-026-72687-z}
       }
 
 
   - title: "Task complexity shapes internal representations and robustness in neural networks"
     authors: <strong>R. Jankowski</strong>, F. Radicchi, M. À. Serrano, M. Boguñá, S. Fortunato
     conference_short: MLST
-    conference: Machine Learning Science and Technology 7 025045, 2026
+    conference: "Machine Learning: Science and Technology 7(2), 025045, 2026."
     year: 2026
     type: published
     featured: true
@@ -44,6 +87,26 @@ main:
       title = {Task complexity shapes internal representations and robustness in neural networks},
       journal = {Machine Learning: Science and Technology},
      }
+
+  - title: "Motif-based filtrations for persistent homology: A framework for graph isomorphism and property prediction"
+    authors: M. V. Miñana, <strong>R. Jankowski</strong>, A. F. Marcús, R. Ballester, M. À. Serrano, C. Casacuberta
+    conference_short: arXiv
+    conference: arXiv preprint arXiv:2604.15265, 2026.
+    year: 2026
+    type: preprint
+    pdf: https://arxiv.org/abs/2604.15265
+    arxiv: 2604.15265
+    image: /assets/teaser/tda_dimension.png
+    bibtex: |
+      @misc{minana2026motifbasedfiltrations,
+        title={Motif-based filtrations for persistent homology: A framework for graph isomorphism and property prediction},
+        author={Vila-Miñana, Meritxell and Jankowski, Robert and Ferrà Marcús, Aina and Ballester, Rubén and Serrano, M. Ángeles and Casacuberta, Carles},
+        year={2026},
+        eprint={2604.15265},
+        archivePrefix={arXiv},
+        primaryClass={math.AT},
+        url={https://arxiv.org/abs/2604.15265}
+      }
 
     
   - title: "Topological Deep Learning Challenge 2025: Expanding the Data Landscape"
@@ -91,17 +154,20 @@ main:
     bibtex: |
       @article{kim2026shortestpath,
         title={Shortest-path percolation on scale-free networks},
-        author={Kim, M. and Cirigliano, L. and Castellano, C. and Sun, H. and Jankowski, R. and Poggialini, A. and Radicchi, F.},
-        journal={Physical Review E},
+        author={Kim, Minsuk and Cirigliano, Lorenzo and Castellano, Claudio and Sun, Hanlin and Jankowski, Robert and Poggialini, Anna and Radicchi, Filippo},
+        journal={Phys. Rev. E},
         volume={113},
+        issue={1},
         pages={014314},
-        year={2026}
+        year={2026},
+        doi={10.1103/pk8t-px35},
+        url={https://link.aps.org/doi/10.1103/pk8t-px35}
       }
 
   - title: "Mapping bipartite networks into multidimensional hyperbolic spaces"
     authors: <strong>R. Jankowski</strong>, R. Aliakbarisani, M. À. Serrano, M. Boguñá
     conference_short: Communications Physics
-    conference: Communications Physics 9(36), 2026.
+    conference: Communications Physics 9, 35, 2026.
     year: 2026
     type: published
     featured: true
@@ -112,52 +178,13 @@ main:
     bibtex: |
       @article{jankowski2026bipartite,
         title={Mapping bipartite networks into multidimensional hyperbolic spaces},
-        author={Jankowski, R. and Aliakbarisani, R. and Serrano, M. A. and Bogu\~n\'a, M.},
+        author={Jankowski, Robert and Aliakbarisani, Roya and Serrano, M. Ángeles and Boguñá, Marián},
         journal={Communications Physics},
         volume={9},
-        pages={36},
-        year={2026}
-      }
-
-  - title: "Network representations reveal structured uncertainty in music"
-    authors: L. B. Rosselló, <strong>R. Jankowski</strong>, H. Bersini, M. Boguñá, M. À. Serrano
-    conference_short: arXiv
-    conference: arXiv preprint arXiv:2509.14053, 2025.
-    year: 2025
-    type: preprint
-    pdf: https://arxiv.org/abs/2509.14053
-    arxiv: 2509.14053
-    image: /assets/teaser/music_networks.png
-    bibtex: |
-      @misc{rosselló2026tradeoffsstructuralrichnesscommunication,
-        title={Trade-offs between structural richness and communication efficiency in music network representations}, 
-        author={Lluc Bono Rosselló and Robert Jankowski and Hugues Bersini and Marián Boguñá and M. Ángeles Serrano},
+        number={1},
+        pages={35},
         year={2026},
-        eprint={2509.14053},
-        archivePrefix={arXiv},
-        primaryClass={physics.soc-ph},
-        url={https://arxiv.org/abs/2509.14053}, 
-      }
-
-  - title: "Hyperbolic Benchmarking Unveils Network Topology-Feature Relationship in GNN Performance"
-    authors: R. Aliakbarisani, <strong>R. Jankowski</strong>, M. À. Serrano, M. Boguñá
-    conference_short: arXiv
-    conference: arXiv preprint arXiv:2406.02772, 2024.
-    year: 2024
-    type: preprint
-    pdf: https://arxiv.org/abs/2406.02772
-    arxiv: 2406.02772
-    image: /assets/teaser/hypbench.png
-    code: https://github.com/networkgeometry/hyperbolic-benchmark-gnn/
-    bibtex: |
-      @misc{aliakbarisani2024hyperbolicbenchmarkingunveilsnetwork,
-          title={Hyperbolic Benchmarking Unveils Network Topology-Feature Relationship in GNN Performance}, 
-          author={Roya Aliakbarisani and Robert Jankowski and M. Ángeles Serrano and Marián Boguñá},
-          year={2024},
-          eprint={2406.02772},
-          archivePrefix={arXiv},
-          primaryClass={cs.LG},
-          url={https://arxiv.org/abs/2406.02772}, 
+        doi={10.1038/s42005-025-02464-9}
       }
 
   - title: "Feature-aware ultra-low dimensional reduction of real networks"
@@ -178,7 +205,8 @@ main:
         volume={1},
         number={1},
         pages={13},
-        year={2024}
+        year={2024},
+        doi={10.1038/s44260-024-00013-z}
       }
 
   - title: "The D-Mercator method for the multidimensional hyperbolic embedding of real networks"
@@ -199,7 +227,8 @@ main:
         journal={Nature Communications},
         volume={14},
         pages={7585},
-        year={2023}
+        year={2023},
+        doi={10.1038/s41467-023-43337-5}
       }
 
   - title: "Role of Time Scales in the Coupled Epidemic-Opinion Dynamics on Multiplex Networks"
@@ -210,32 +239,36 @@ main:
     type: published
     pdf: https://www.mdpi.com/1099-4300/24/1/105
     image: /assets/teaser/jankowski_entropy.png
-    pdf: https://www.mdpi.com/1099-4300/24/1/105
     bibtex: | 
       @article{jankowski2022role,
-      title={Role of time scales in the coupled epidemic-opinion dynamics on multiplex networks},
-      author={Jankowski, Robert and Chmiel, Anna},
-      journal={Entropy},
-      volume={24},
-      number={1},
-      pages={105},
-      year={2022},
-      publisher={MDPI}
+        title={Role of time scales in the coupled epidemic-opinion dynamics on multiplex networks},
+        author={Jankowski, Robert and Chmiel, Anna},
+        journal={Entropy},
+        volume={24},
+        number={1},
+        pages={105},
+        year={2022},
+        publisher={MDPI},
+        doi={10.3390/e24010105}
       }
 
   - title: "Determining Crucial Factors for the Popularity of Scientific Articles"
     authors: <strong>R. Jankowski</strong>, J. Sienkiewicz
     conference_short: Acta Phys. Pol. A
-    conference: Acta Physica Polonica A 138(1):41–47, 2020.
+    conference: Acta Physica Polonica A 138(1):41-47, 2020.
     year: 2020
     type: published
-    pdf: https://arxiv.org/abs/2001.09914
+    pdf: https://przyrbwn.icm.edu.pl/APP/PDF/138/app138z1p06.pdf
     arxiv: 2001.09914
     image: /assets/teaser/jankowski_acta.png
     bibtex: |
       @article{jankowski2020determining,
-      title={Determining crucial factors for the popularity of scientific articles},
-      author={Jankowski, Robert and Sienkiewicz, Julian},
-      journal={arXiv preprint arXiv:2001.09914},
-      year={2020}
+        title={Determining crucial factors for the popularity of scientific articles},
+        author={Jankowski, Robert and Sienkiewicz, Julian},
+        journal={Acta Physica Polonica A},
+        volume={138},
+        number={1},
+        pages={41--47},
+        year={2020},
+        doi={10.12693/APhysPolA.138.41}
       }

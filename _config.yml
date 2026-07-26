@@ -9,7 +9,7 @@ email: research (at) robertjankowski.net
 # Search Engine Optimization (SEO)
 keywords: robert jankowski, jankowski
 canonical: https://robertjankowski.github.io
-description: Robert Jankowski is a Postdoctoral Fellow at TU Delft. His research lies in network geometry, network embedding and machine learning.
+description: Robert Jankowski is a Postdoctoral Fellow at TU Delft. His research lies in network geometry, graph machine learning, and topological data analysis.
 
 # The option is used to enable the Illinois template.
 enable_hopkins_logo: true
