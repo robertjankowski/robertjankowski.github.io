@@ -1,21 +1,41 @@
 main:
 
+  - title: "Train Small, Deploy Large: Zero-Shot GNN Transfer Through Geometric Renormalization"
+    authors: <strong>R Jankowski</strong>, P. Almagro-Blanco, M. Boguñá, M. Weber, M. Á. Serrano
+    conference_short: arXiv
+    conference: arXiv preprint arXiv:2607.27767, 2026.
+    year: 2026
+    type: preprint
+    pdf: https://arxiv.org/abs/2607.27767
+    arxiv: 2607.27767
+    image: /assets/teaser/transfer_gnn.png
+    bibtex: |
+      @article{jankowski2026train,
+        title={Train Small, Deploy Large: Zero-Shot GNN Transfer Through Geometric Renormalization},
+        author={Jankowski, Robert and Almagro-Blanco, Pedro and Bogu{\~n}{\'a}, Mari{\'a}n and Weber, Melanie and Serrano, M},
+        journal={arXiv preprint arXiv:2607.27767},
+        year={2026}
+      }
+
   - title: "Trade-offs between structural richness and perceptual robustness in music network representations"
     authors: L. B. Rosselló, <strong>R. Jankowski</strong>, H. Bersini, M. Boguñá, M. À. Serrano
     conference_short: Physical Review Research
     conference: Physical Review Research, accepted, 2026.
     year: 2026
     type: published
-    pdf: https://arxiv.org/abs/2509.14053
+    pdf: https://journals.aps.org/prresearch/abstract/10.1103/x6hc-jb2r
     arxiv: 2509.14053
     image: /assets/teaser/music_networks.png
     bibtex: |
-      @article{rossello2026tradeoffs,
+      @article{rossello2026trade,
         title={Trade-offs between structural richness and perceptual robustness in music network representations},
-        author={Rosselló, Lluc Bono and Jankowski, Robert and Bersini, Hugues and Boguñá, Marián and Serrano, M. Ángeles},
+        author={Rossell{\'o}, Lluc Bono and Jankowski, Robert and Bersini, Hugues and Bogu{\~n}{\'a}, Mari{\'a}n and Serrano, M {\'A}ngeles},
         journal={Physical Review Research},
+        volume={8},
+        number={3},
+        pages={033127},
         year={2026},
-        note={Accepted}
+        publisher={APS}
       }
 
   - title: "HypBench: Hyperbolic Benchmark for Graph Neural Network Performance"
