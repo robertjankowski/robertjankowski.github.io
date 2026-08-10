@@ -1,5 +1,22 @@
 main:
 
+  - title: "Hyperbolic Graph Embedders for Link Prediction and Topology Reconstruction"
+    authors: <strong> R Jankowski</strong>, M. Kitsak, D. Celińska-Kopczyńska
+    conference_short: arXiv
+    conference: arXiv preprint 	arXiv:2608.07029, 2026.
+    year: 2026
+    type: preprint
+    pdf: https://arxiv.org/abs/2608.07029
+    arxiv: 2608.07029
+    image: /assets/teaser/hyp_comparison.png
+    bibtex: |
+      @article{jankowski2026hyp,
+        title={Hyperbolic Graph Embedders for Link Prediction and Topology Reconstruction},
+        author={Jankowski, Robert and Kitsak, Maksim and Celińska-Kopczyńska, Dorota},
+        journal={arXiv preprint arXiv:2608.07029},
+        year={2026}
+      }
+
   - title: "Train Small, Deploy Large: Zero-Shot GNN Transfer Through Geometric Renormalization"
     authors: <strong>R Jankowski</strong>, P. Almagro-Blanco, M. Boguñá, M. Weber, M. Á. Serrano
     conference_short: arXiv

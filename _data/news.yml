@@ -1,4 +1,8 @@
 main:
+  - date: Aug. 2026
+    text: >-
+      New preprint: <a href="https://arxiv.org/abs/2608.07029">Hyperbolic Graph Embedders for Link Prediction and Topology Reconstruction</a> is available online.
+  
   - date: Jul. 2026
     text: >-
       New preprint: <a href="https://arxiv.org/abs/2607.27767">Train Small, Deploy Large: Zero-Shot GNN Transfer Through Geometric Renormalization</a> is available online.
