@@ -1,6 +1,24 @@
 main:
 
   - title: "Hyperbolic Graph Embedders for Link Prediction and Topology Reconstruction"
+    authors: Berné L. Nortier, Jasper van der Kolk, <strong> R Jankowski</strong>, Simon Dobson, M. Ángeles Serrano, Federico Battiston, Marián Boguñá
+    conference_short: arXiv
+    conference: arXiv preprint  arXiv:2609.07906, 2026.
+    year: 2026
+    type: preprint
+    pdf: https://arxiv.org/abs/2609.07906 
+    arxiv: 2609.07906 
+    image: /assets/teaser/nestedness.png
+    bibtex: |
+      @article{nortier2026latentgeometryorganizeshigherorder,
+          title={Latent geometry organizes higher-order interactions}, 
+          author={Berné L. Nortier and Jasper van der Kolk and Robert Jankowski and Simon Dobson and M. Ángeles Serrano and Federico Battiston and Marián Boguñá},
+          year={2026},
+          eprint={2609.07906},
+          url={https://arxiv.org/abs/2609.07906}, 
+      }
+
+  - title: "Hyperbolic Graph Embedders for Link Prediction and Topology Reconstruction"
     authors: <strong> R Jankowski</strong>, M. Kitsak, D. Celińska-Kopczyńska
     conference_short: arXiv
     conference: arXiv preprint 	arXiv:2608.07029, 2026.
@@ -37,7 +55,7 @@ main:
   - title: "Trade-offs between structural richness and perceptual robustness in music network representations"
     authors: L. B. Rosselló, <strong>R. Jankowski</strong>, H. Bersini, M. Boguñá, M. À. Serrano
     conference_short: Physical Review Research
-    conference: Physical Review Research, accepted, 2026.
+    conference: Physical Review Research, 8, 033127, 2026.
     year: 2026
     type: published
     pdf: https://journals.aps.org/prresearch/abstract/10.1103/x6hc-jb2r

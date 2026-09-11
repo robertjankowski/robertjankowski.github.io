@@ -1,4 +1,8 @@
 main:
+  - date: Sep. 2026
+    text: >-
+      New preprint: <a href="https://arxiv.org/abs/2609.07906v1">Latent geometry organises higher-order interactions</a> is available online.
+
   - date: Aug. 2026
     text: >-
       New preprint: <a href="https://arxiv.org/abs/2608.07029">Hyperbolic Graph Embedders for Link Prediction and Topology Reconstruction</a> is available online.

@@ -29,6 +29,7 @@ permalink: /research/
         I use network science to understand how AI systems learn, compute, and become robust. The goal is to treat neural networks and graph-learning systems as measurable complex systems, where task structure, topology, representations, and failure modes can be studied with quantitative tools rather than only benchmark scores.
       </p>
       <ul>
+        <li><a href="https://arxiv.org/abs/2607.27767" target="_blank" rel="noopener">Train Small, Deploy Large: Zero-Shot GNN Transfer Through Geometric Renormalization</a>. preprint, 2026.</li>
         <li><a href="https://iopscience.iop.org/article/10.1088/2632-2153/ae5503" target="_blank" rel="noopener">Task complexity shapes internal representations and robustness in neural networks</a>. Machine Learning: Science and Technology, 2026.</li>
         <li><a href="https://doi.org/10.1109/TNNLS.2026.3697597" target="_blank" rel="noopener">HypBench: Hyperbolic Benchmark for Graph Neural Network Performance</a>. IEEE Transactions on Neural Networks and Learning Systems, 2026.</li>
         <li><a href="https://proceedings.mlr.press/v321/bernardez26a.html" target="_blank" rel="noopener">Topological Deep Learning Challenge 2025: Expanding the Data Landscape</a>. Proceedings of Machine Learning Research, 2026.</li>

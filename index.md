@@ -22,7 +22,7 @@ permalink: /
         {{ site.position }} at <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>.
       </p>
       <p class="hero-bio">
-        I work with <a href="https://www.maksimkitsak.com/" target="_blank" rel="noopener">Maksim Kitsak</a> on shortest paths in large incomplete networks. I received my PhD in network geometry from the University of Barcelona, where I studied network embeddings in multidimensional hyperbolic spaces with <a href="http://complex.fmc.ub.edu/~mbogunya/" target="_blank" rel="noopener">Marián Boguñá</a> and <a href="https://mappingcomplexity.net/maserrano/" target="_blank" rel="noopener">M. Ángeles Serrano</a>.
+        I work with <a href="https://www.maksimkitsak.com/" target="_blank" rel="noopener">Maksim Kitsak</a> on shortest paths in large incomplete networks. I received my PhD in physics from the University of Barcelona, where I studied network embeddings in multidimensional hyperbolic spaces with <a href="http://complex.fmc.ub.edu/~mbogunya/" target="_blank" rel="noopener">Marián Boguñá</a> and <a href="https://mappingcomplexity.net/maserrano/" target="_blank" rel="noopener">M. Ángeles Serrano</a>.
       </p>
 
     </div>
