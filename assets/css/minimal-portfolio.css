@@ -435,9 +435,9 @@ button:focus-visible {
 }
 
 .hero-photo img {
+  display: block;
   width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  height: auto;
   border: 1px solid var(--line);
   border-radius: 10px;
 }
@@ -620,19 +620,10 @@ button:focus-visible {
   animation-delay: 0.06s;
 }
 
-.feature-kicker {
-  margin: 0;
-  font-family: var(--font-sans-strong);
-  color: var(--muted);
-  font-size: var(--caption-size);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
 .feature-title {
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(1.15rem, 1.7vw, 1.55rem);
+  font-size: clamp(1.05rem, 1.35vw, 1.35rem);
   line-height: 1.16;
   text-wrap: balance;
 }
@@ -650,20 +641,6 @@ button:focus-visible {
   margin: 0;
   color: var(--muted);
   font-size: 0.94rem;
-}
-
-.feature-links {
-  margin: 0.25rem 0 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem 1rem;
-  font-size: 0.74rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.feature-links a {
-  text-decoration: none;
 }
 
 .project-grid {

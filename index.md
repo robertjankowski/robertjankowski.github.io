@@ -11,7 +11,7 @@ permalink: /
   <div class="hero-profile">
     {% if site.avatar %}
     <div class="hero-photo">
-      <img src="{{ site.avatar }}" alt="{{ site.title }} portrait" loading="lazy" />
+      <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }} portrait" loading="lazy" />
     </div>
     {% endif %}
     <div class="hero-copy">
@@ -60,8 +60,8 @@ permalink: /
     <div>
       <h2>Selected Publications</h2>
       <div class="feature-grid">
-        {% for link in site.data.publications.main %}
-        {% if link.featured %}
+        {% assign featured_publications = site.data.publications.main | where: "featured", true | sort: "featured_order" %}
+        {% for link in featured_publications %}
         <article class="feature-card">
           {% if link.image %}
           <a class="feature-thumb" href="{{ link.pdf }}" target="_blank" rel="noopener">
@@ -69,7 +69,6 @@ permalink: /
           </a>
           {% endif %}
           <div class="feature-content">
-            <p class="feature-kicker">{{ link.conference_short }}</p>
             <h3 class="feature-title">
               {% if link.pdf %}
               <a href="{{ link.pdf }}" target="_blank" rel="noopener">{{ link.title }}</a>
@@ -79,17 +78,8 @@ permalink: /
             </h3>
             <p class="feature-description">{{ link.authors }}</p>
             <p class="feature-meta">{{ link.conference }}</p>
-            <p class="feature-links">
-              {% if link.pdf %}
-              <a href="{{ link.pdf }}" target="_blank" rel="noopener">pdf</a>
-              {% endif %}
-              {% if link.code %}
-              <a href="{{ link.code }}" target="_blank" rel="noopener">code</a>
-              {% endif %}
-            </p>
           </div>
         </article>
-        {% endif %}
         {% endfor %}
       </div>
       <p class="section-linkline"><a href="{{ "/publications/" | relative_url }}">See full publication list</a></p>

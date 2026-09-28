@@ -19,9 +19,6 @@ main:
   - title: "Software"
     url: software/
 
-  - title: "Talks"
-    url: talks/
-
   - title: "CV"
     url: /assets/jankowski_CV.pdf
     right: true

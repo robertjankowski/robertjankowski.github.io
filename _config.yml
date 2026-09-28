@@ -9,6 +9,7 @@ email: research (at) robertjankowski.net
 # Search Engine Optimization (SEO)
 keywords: robert jankowski, jankowski
 canonical: https://robertjankowski.github.io
+url: https://robertjankowski.github.io
 description: Robert Jankowski is a Postdoctoral Fellow at TU Delft. His research lies in network geometry, graph machine learning, and topological data analysis.
 
 # The option is used to enable the Illinois template.
@@ -26,7 +27,7 @@ linkedin: https://www.linkedin.com/in/robert--jankowski/
 google_analytics: G-RWMF4BL9PD
 
 # Images 
-avatar: https://robertjankowski.github.io/assets/img/rj_photo.jpg
+avatar: /assets/img/rj_photo.png
 
 # Footnotes
 footnote: Based on this amazing template

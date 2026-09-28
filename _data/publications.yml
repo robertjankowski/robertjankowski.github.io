@@ -100,6 +100,7 @@ main:
     conference: Nature Communications 17, 6105, 2026.
     year: 2026
     featured: true
+    featured_order: 3
     type: published
     pdf: https://www.nature.com/articles/s41467-026-72687-z
     arxiv: 2509.08350 
@@ -124,6 +125,7 @@ main:
     year: 2026
     type: published
     featured: true
+    featured_order: 2
     pdf: https://iopscience.iop.org/article/10.1088/2632-2153/ae5503
     arxiv: 2508.05463
     image: /assets/teaser/jankowski_task.png
@@ -226,6 +228,7 @@ main:
     year: 2026
     type: published
     featured: true
+    featured_order: 4
     pdf: https://www.nature.com/articles/s42005-025-02464-9
     arxiv: 2503.04316
     image: /assets/teaser/jankowski_bmercator.png
@@ -271,6 +274,7 @@ main:
     year: 2023
     type: published
     featured: true
+    featured_order: 1
     pdf: https://www.nature.com/articles/s41467-023-43337-5
     arxiv: 2304.06580
     image: /assets/teaser/jankowski_dmercator.png
