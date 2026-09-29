@@ -76,7 +76,7 @@ permalink: /
               {{ link.title }}
               {% endif %}
             </h3>
-            <p class="feature-description">{{ link.authors }}</p>
+            <p class="feature-description">{% assign feature_authors = link.authors | split: ", " %}{% for author in feature_authors %}<span class="author-name">{{ author }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
             <p class="feature-meta">{{ link.conference }}</p>
           </div>
         </article>

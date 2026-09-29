@@ -7,7 +7,7 @@
   --motion-fast: 0.08s;
   --hit-target: 2.75rem;
 
-  --max-width: 1120px;
+  --max-width: 1250px;
   --header-height: 4.25rem;
 
   --space-1: 0.25rem;
@@ -202,14 +202,6 @@ button:focus-visible {
   display: flex;
   align-items: center;
   gap: var(--space-5);
-}
-
-.site-mark {
-  font-family: var(--font-sans-strong);
-  font-size: 0.92rem;
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  text-decoration: none;
 }
 
 .site-nav {
@@ -598,7 +590,7 @@ button:focus-visible {
 .feature-thumb img {
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -623,7 +615,7 @@ button:focus-visible {
 .feature-title {
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(1.05rem, 1.35vw, 1.35rem);
+  font-size: clamp(1.05rem, 1.25vw, 1.25rem);
   line-height: 1.16;
   text-wrap: balance;
 }
@@ -640,7 +632,11 @@ button:focus-visible {
 .feature-meta {
   margin: 0;
   color: var(--muted);
-  font-size: 0.94rem;
+  font-size: 0.8rem;
+}
+
+.feature-description .author-name {
+  white-space: nowrap;
 }
 
 .project-grid {
@@ -1212,6 +1208,10 @@ button:focus-visible {
 @media screen and (max-width: 760px) {
   .site-nav {
     display: none;
+  }
+
+  .menu-toggle {
+    margin-left: auto;
   }
 
   .site-header-inner {
