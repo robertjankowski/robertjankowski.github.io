@@ -1,16 +1,16 @@
 # Basic Information 
 title: Robert Jankowski
 position: Postdoctoral Fellow
-affiliation: TU Delft
-affiliation_link: https://www.nas.ewi.tudelft.nl/
-affiliation_logo: ./assets/img/logo_tudelft.svg
+affiliation: Indiana University
+affiliation_link: https://luddy.iu.edu/research/areas/complex-networks-systems.html
+affiliation_logo: ./assets/img/iu_logo.svg
 email: research (at) robertjankowski.net
 
 # Search Engine Optimization (SEO)
 keywords: robert jankowski, jankowski
 canonical: https://robertjankowski.github.io
 url: https://robertjankowski.github.io
-description: Robert Jankowski is a Postdoctoral Fellow at TU Delft. His research lies in network geometry, graph machine learning, and topological data analysis.
+description: Robert Jankowski is a Postdoctoral Researcher at Indiana University. His research lies in network geometry, graph machine learning, and network biology.
 
 # The option is used to enable the Illinois template.
 enable_hopkins_logo: true

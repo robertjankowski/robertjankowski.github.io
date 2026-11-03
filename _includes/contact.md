@@ -1,9 +1,9 @@
 <h2>Contact</h2>
 
 <address>
-  TU Delft Faculty of Electrical Engineering, Mathematics and Computer Science
+  Luddy Center for Artificial Intelligence, Indiana University
   <br />
-  Mekelweg 4, 2628 CM Delft, The Netherlands
+  1015 E 11th St, Bloomington, IN 47408
   <br />
-  Office: HB 09.230
+  Office: 2062-21
 </address>
