@@ -381,23 +381,23 @@ button:focus-visible {
 
 .hero-profile {
   display: grid;
-  grid-template-columns: minmax(140px, 180px) minmax(0, 1fr);
-  gap: var(--space-6);
+  grid-template-columns: minmax(140px, 180px) minmax(0, 700px);
+  gap: var(--space-4) var(--space-6);
   align-items: start;
 }
 
+.hero-heading,
 .hero-copy {
-  max-width: 880px;
+  grid-column: 2;
+  min-width: 0;
 }
 
 .hero-actions {
-  grid-column: 1 / -1;
-  justify-self: start;
   width: 100%;
 }
 
 .hero-title {
-  margin: 0 0 var(--space-4);
+  margin: 0;
   width: fit-content;
   max-width: 18ch;
   font-family: var(--font-display);
@@ -408,20 +408,37 @@ button:focus-visible {
 }
 
 .hero-subhead {
-  max-width: 78ch;
   color: var(--muted);
-  font-size: clamp(0.98rem, 0.18vw + 0.98rem, 1.06rem);
   font-family: var(--font-sans-strong);
   font-style: normal;
-  margin: 0 0 var(--space-5);
+  margin: 0 0 var(--space-4);
 }
 
 .hero-bio {
-  max-width: 82ch;
   margin: 0 0 var(--space-5);
 }
 
+.faculty-notice {
+  margin: 0 0 var(--space-5);
+  padding: var(--space-3) var(--space-4);
+  border-left: 3px solid var(--muted);
+  background: rgba(21, 20, 18, 0.06);
+  color: var(--fg);
+  text-wrap: balance;
+}
+
+.faculty-notice-topic {
+  white-space: nowrap;
+}
+
+.hero-background {
+  margin: 0 0 var(--space-5);
+  color: var(--muted);
+}
+
 .hero-photo {
+  grid-column: 1;
+  grid-row: 1 / span 2;
   justify-self: start;
   width: min(180px, 100%);
 }
@@ -1138,8 +1155,7 @@ button:focus-visible {
 .home-hero .research-interests,
 .home-hero .quick-links,
 .home-hero .scroll-cue {
-  opacity: 0;
-  animation: rise-in var(--motion-fast) ease forwards;
+  animation: rise-in var(--motion-fast) ease both;
 }
 
 .home-hero .hero-title {
@@ -1223,13 +1239,28 @@ button:focus-visible {
   }
 
   .hero-profile {
-    grid-template-columns: 1fr;
-    gap: var(--space-5);
+    max-width: 700px;
+    grid-template-columns: minmax(0, 1fr) 80px;
+    gap: var(--space-4);
+  }
+
+  .is-home .site-main {
+    padding-top: calc(var(--header-height) + var(--space-6));
+  }
+
+  .hero-heading {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .hero-copy {
+    grid-column: 1 / -1;
   }
 
   .hero-photo {
-    justify-self: start;
-    width: min(170px, 52vw);
+    grid-column: 2;
+    grid-row: 1;
+    width: 80px;
   }
 
   .feature-grid,

@@ -2,6 +2,7 @@
 layout: minimal-portfolio
 title: Home
 permalink: /
+description: Robert Jankowski studies network biology and the network science of AI using network science and geometry. Seeking assistant professor opportunities.
 ---
 
 {% assign email_href = site.email | replace: " (at) ", "@" | replace: " ", "" %}
@@ -14,29 +15,35 @@ permalink: /
       <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }} portrait" loading="lazy" />
     </div>
     {% endif %}
-    <div class="hero-copy">
+    <div class="hero-heading">
       <h1 class="hero-title" id="hero-title">
         Robert Jankowski
       </h1>
+    </div>
+    <div class="hero-copy">
       <p class="hero-subhead">
         {{ site.position }} at <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>.
       </p>
       <p class="hero-bio">
-        I work with <a href="https://www.maksimkitsak.com/" target="_blank" rel="noopener">Maksim Kitsak</a> on network biology and network complementarity. I received my PhD in physics from the University of Barcelona, where I studied network embeddings in multidimensional hyperbolic spaces with <a href="http://complex.fmc.ub.edu/~mbogunya/" target="_blank" rel="noopener">Marián Boguñá</a> and <a href="https://mappingcomplexity.net/maserrano/" target="_blank" rel="noopener">M. Ángeles Serrano</a>.
+        I use network science and geometry to understand biological systems and artificial intelligence. My research focuses on protein interaction networks and on the structure, representations, and robustness of neural networks.
       </p>
-
-    </div>
-
-    <div class="hero-actions">
-      <ul class="quick-links">
-        <li><a class="social-link" href="mailto:{{ email_href }}" aria-label="Email {{ email_href }}">{% include social-icon.html name="email" %}{{ email_text }}</a></li>
-        {% if site.cv_link %}
-        <li><a class="social-link" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">{% include social-icon.html name="cv" %}CV</a></li>
-        {% endif %}
-        {% if site.google_scholar %}
-        <li><a class="social-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">{% include social-icon.html name="scholar" %}Google Scholar</a></li>
-        {% endif %}
-      </ul>
+      <p class="faculty-notice">
+        I’m seeking an <strong>assistant professor position</strong> to build a research program in network biology and the <span class="faculty-notice-topic">network science of AI</span>.
+      </p>
+      <p class="hero-background">
+        Currently, I work with <a href="https://www.maksimkitsak.com/" target="_blank" rel="noopener">Maksim Kitsak</a> on network biology and network complementarity. I received my PhD in physics from the University of Barcelona, where I studied network embeddings in multidimensional hyperbolic spaces with <a href="https://mappingcomplexity.net/maserrano/" target="_blank" rel="noopener">M. Ángeles Serrano</a> and <a href="http://complex.fmc.ub.edu/~mbogunya/" target="_blank" rel="noopener">Marián Boguñá</a>.
+      </p>
+      <div class="hero-actions">
+        <ul class="quick-links">
+          <li><a class="social-link" href="mailto:{{ email_href }}" aria-label="Email {{ email_href }}">{% include social-icon.html name="email" %}{{ email_text }}</a></li>
+          {% if site.cv_link %}
+          <li><a class="social-link" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">{% include social-icon.html name="cv" %}CV</a></li>
+          {% endif %}
+          {% if site.google_scholar %}
+          <li><a class="social-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">{% include social-icon.html name="scholar" %}Google Scholar</a></li>
+          {% endif %}
+        </ul>
+      </div>
     </div>
   </div>
 </section>
@@ -87,11 +94,11 @@ permalink: /
   </div>
 </section>
 
-<section class="home-section" id="prospective-collaborators-students">
-  <h2>Prospective Collaborators and Students</h2>
+<!-- <section class="home-section" id="prospective-collaborators-students">
+  <h2>Prospective Collaborators</h2>
 
-  I am open to collaborations with researchers and students interested in network geometry, graph machine learning, and network science of neural networks. 
+  I am open to collaborations with researchers interested in network geometry, graph machine learning, and network science of neural networks. 
   <br>
   If you are interested in working together on these topics, feel free to contact me: <a href="mailto:{{ email_href }}" aria-label="Email {{ email_href }}">{{ email_text }}</a>.
 
-</section>
+</section> -->
